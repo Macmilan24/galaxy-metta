@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+
+data/raw/
+data/knowledge_base.metta
+results/
+
+# MeTTa / Hyperon logs
+*.log
+.metta_history
+
+# OS generated files
+.DS_Store
+.directory
