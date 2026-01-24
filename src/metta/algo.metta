@@ -1,17 +1,17 @@
 
-! (import! &self utils)
-! (import! &self knowledge_base)
+!(import! &self utils)
+!(import! &self knowledge_base)
 
-! (println! "--- Initializing Communities ---")
+!(println! "--- Initializing Communities ---")
 
-! (match &self (used-in (Tool $t) $w)
+!(match &self (used-in (Tool $t) $w)
     (add-atom &self (member-of (Tool $t) (Community $t)))
 )
 
 ;; 3. DEBUG: Verify atoms were added
-! (println! "--- Debug: Checking a sample member-of atom ---")
-! (match &self (member-of (Tool picard_MarkDuplicates) $c)
-    (println! (format-args "CONFIRMED: picard_MarkDuplicates is in {}" ($c)))
+!(println! "--- Debug: Checking a sample member-of atom ---")
+!(match &self (member-of (Tool picard_MarkDuplicates) $c)
+    (println!(format-args "CONFIRMED: picard_MarkDuplicates is in {}" ($c)))
 )
 
 ;; get neighbor communities
@@ -30,9 +30,9 @@
    )
 )
 
-! (println! "--- Running Label Propagation ---")
+!(println! "--- Running Label Propagation ---")
 
-! (match &self (member-of (Tool $t) (Community $c))
+!(match &self (member-of (Tool $t) (Community $c))
     (let $neighbors (get-neighbor-comms &self $t)
          (Influence $t $neighbors)
     )
