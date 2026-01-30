@@ -1,6 +1,15 @@
 import os
 import time
-from hyperon import MeTTa
+import sys
+
+# Add PeTTa to path
+base_dir = os.path.dirname(os.path.abspath(__file__))
+petta_path = os.path.abspath(os.path.join(base_dir, "../../PeTTa/python"))
+sys.path.append(petta_path)
+
+# Use PeTTa instead of Hyperon
+# from hyperon import MeTTa
+from petta import PeTTa
 
 # --- CONFIGURATION ---
 HUB_THRESHOLD = 80
@@ -17,8 +26,9 @@ def main():
 
     t_start = time.time()
 
-    print("🔹 Initializing MeTTa Hypergraph Engine...")
-    metta = MeTTa()
+    print("🔹 Initializing MeTTa Hypergraph Engine (PeTTa)...")
+    # metta = MeTTa()
+    metta = PeTTa()
 
     # Path Setup
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -34,9 +44,9 @@ def main():
     print("🔹 Loading Knowledge Base & Logic...")
     try:
         with open(utils_path, "r") as f:
-            metta.run(f.read())
+            metta.process_metta_string(f.read())
         with open(kb_path, "r") as f:
-            metta.run(f.read())
+            metta.process_metta_string(f.read())
 
         # Load algo stripping imports
         with open(algo_path, "r") as f:
@@ -49,14 +59,20 @@ def main():
     t_load = time.time()
 
     print("🔹 Executing Hypergraph Analysis (Label Propagation)...")
-    results = metta.run("".join(algo_lines))
+    results = metta.process_metta_string("".join(algo_lines))
+
+    # For compatibility, ensure flat structure handling or inspect structure
+    if results and isinstance(results[0], list):
+        flat_results = [atom for res in results for atom in res]
+    else:
+        flat_results = results
 
     t_algo = time.time()
 
     print("🔹 Processing & Filtering Results...")
 
     influence_scores = {}
-    flat_results = [atom for res in results for atom in res]
+    # flat_results = [atom for res in results for atom in res] # Moved up
 
     for atom in flat_results:
         atom_str = str(atom)
@@ -109,7 +125,7 @@ def main():
 
     # --- BENCHMARK SUMMARY ---
     print("\n" + "=" * 60)
-    print("🚀 PERFORMANCE BENCHMARK (Hyperon-Experimental)")
+    print("🚀 PERFORMANCE BENCHMARK (PeTTa)")
     print("=" * 60)
 
     time_init = t_init - t_start

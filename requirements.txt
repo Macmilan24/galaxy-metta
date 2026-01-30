@@ -1,1 +1,2 @@
 hyperon==0.2.9
+janus_swi==1.5.2
