@@ -1,3 +1,5 @@
+
+
 ;; Query 1: Connectivity and degree
 
 ;; helper for counting
@@ -14,6 +16,20 @@
 (= (gds-edge) STEP_REQUIRES)
 (= (gds-edge) TOOL_HAS_INPUT)
 (= (gds-edge) TOOL_HAS_OUTPUT)
+
+;; Define allowed types
+(= (valid-type) Category)
+(= (valid-type) Workflow)
+(= (valid-type) Tool)
+(= (valid-type) Step)
+(= (valid-type) ToolInput)
+(= (valid-type) ToolOutput)
+
+(= (get-all-nodes)
+   (let $type (valid-type)
+      (match &self (: $node $type) $node)
+   )
+)
 
 
 ;; Match relation node to y or  y to node
@@ -38,7 +54,9 @@
 ;; Query Excusions
 ;; =====================================
 !("checking query 1 ...")
-!("Degree of minimap2:" (get-degree "minimap2"))
+!(let $node (get-all-nodes)
+   ("Degree of" $node ":" (get-degree $node))
+)
 
 
 ;;==================================
@@ -97,17 +115,16 @@
 ;; Query Excusions
 ;; =====================================
 !("Checking query 2: Clustering Coefficient ...")
-!("LCC of Genomics:" (get-lcc "Genomics"))
-!("LCC of minimap2:" (get-lcc "minimap2"))
+!(let $node (get-all-nodes)
+   ("LCC of" $node ":" (get-lcc $node))   
+)
 
 
 ;; ==================================
 ;; Query 3: Motifs & Hubs
 ;; ==================================
 
-(= (get-all-nodes)
-   (match &self (: $node $type) $node)
-)
+
 ;; finding triangle
 !("Motif: Triangles Found:")
 !(let $node (get-all-nodes) 
