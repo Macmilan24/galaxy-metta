@@ -1,1 +1,0 @@
-../../data/knowledge_base.metta
