@@ -1,14 +1,20 @@
 #!/bin/bash
 
-# Define a temporary file to hold the combined code
-COMBINED_FILE="metta/galaxy_full_run.metta"
-
-cat metta/galaxy_schema.metta metta/galaxy_data_full.metta metta/galaxy_queries.metta > "$COMBINED_FILE"
-
 LOG_FILE="gds_output.log"
-sh ../PeTTa/run.sh "$COMBINED_FILE" --silent \
-  | grep -vE "^-->|^\^\^\^\^\^|:- findall"\
-  | tee "$LOG_FILE"
+SCRIPT_DIR=$(cd -- "$(dirname -- "$0")" && pwd)
 
-# 3. Clean up the temporary file
-rm "$COMBINED_FILE"
+# Locate the compiled Rust MORK library for direct FFI access
+MORK_LIB="$(readlink -f "$SCRIPT_DIR/../PeTTa/mork_ffi/target/release/libmork_ffi.so")"
+
+if [ ! -f "$MORK_LIB" ]; then
+    echo "Error: MORK library not found at $MORK_LIB"
+    echo "Please build PeTTa/MORK first."
+    exit 1
+fi
+
+echo "Running GDS with high-performance MORK loader..."
+echo "Using Library: $MORK_LIB"
+
+# LD_PRELOAD is required to inject the Rust symbols (rust_mork) into the 
+# process space before the Prolog/Python bridge (morklib.so) is loaded.
+LD_PRELOAD="$MORK_LIB" python3 python/run_gds.py | tee "$LOG_FILE"
