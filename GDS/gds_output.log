@@ -3,9 +3,9 @@ Initializing PeTTa Environment...
 
 [Benchmark] Target Data: galaxy_data_full.metta
 --------------------------------------------------
-File Read:    0.0031 sec (1.59 MB)
-MORK Ingest:  0.0153 sec
-Total Time:   0.0184 sec
+File Read:    0.0065 sec (1.59 MB)
+MORK Ingest:  0.0241 sec
+Total Time:   0.0312 sec
 
 [Running] galaxy_schema.metta...
   > true
@@ -25,7 +25,7 @@ Total Time:   0.0184 sec
   > true
   > true
   > true
-  Finished in 0.0026 sec
+  Finished in 0.0032 sec
 
 [Running] galaxy_queries.metta...
   > ("checking query 1 ...")
@@ -12989,6 +12989,6 @@ Total Time:   0.0184 sec
   > (Hub variableMetadata_6ee06e12 (Degree 4))
   > (Hub output_paired_coll_bebcc455 (Degree 6))
   > (Hub variableMetadata_out_ec4f1707 (Degree 3))
-  Finished in 151.6433 sec
+  Finished in 145.6387 sec
 --------------------------------------------------
 Execution Complete.
