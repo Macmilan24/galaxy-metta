@@ -201,7 +201,6 @@ def process_gds_results(results):
         "degree": degree_data,
         "clustering": clustering_data,
         "motifs": motifs_data,
-        # "blocks": {...} (Communities omitted as requested)
     }
 
     # 3. Export
