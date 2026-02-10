@@ -10,6 +10,10 @@ OUTPUT_PATH = os.path.join(BASE_DIR, "../metta/galaxy_data_full.metta")
 
 
 def clean_label(s):
+    """
+    Sanitizes a string to ensure it is safe for use as a MeTTa symbol value.
+    Removes newlines, tabs, and escapes special characters.
+    """
     if not s:
         return "Unknown"
     s = s.replace("\n", " ").replace("\r", " ").replace("\t", " ")
@@ -20,14 +24,24 @@ def clean_label(s):
 
 
 def to_symbol(s, prefix):
+    """
+    Converts an arbitrary string into a valid, unique MeTTa identifier symbol.
+    Uses a prefix and an MD5 hash suffix to ensure uniqueness and validity.
+    """
     if not s:
         return f"{prefix}_unknown"
+
+    # Remove invalid characters for MeTTa symbols
     base = clean_label(s)
     base = re.sub(r"[^A-Za-z0-9_]+", "_", base).strip("_")
     if not base:
         base = "unknown"
+
+    # Ensure it doesn't start with a digit
     if base[0].isdigit():
         base = f"{prefix}_{base}"
+
+    # Append hash to prevent collisions between similar names
     h = hashlib.md5(s.encode("utf-8", errors="ignore")).hexdigest()[:8]
     if len(base) > 72:
         base = base[:72]
@@ -35,6 +49,10 @@ def to_symbol(s, prefix):
 
 
 def add_node(out, name, type_label):
+    """
+    Writes a node definition to the output file in MeTTa format.
+    Example: (: symbol Type)
+    """
     if not name:
         return
     node_sym = to_symbol(name, type_label.lower())
@@ -42,6 +60,10 @@ def add_node(out, name, type_label):
 
 
 def add_edge(out, pred, source, target):
+    """
+    Writes a relationship (edge) between two nodes to the output file.
+    Example: (PREDICATE source_node target_node)
+    """
     if not source or not target:
         return
     src_sym = to_symbol(source, "node")
@@ -50,6 +72,11 @@ def add_edge(out, pred, source, target):
 
 
 def process_workflow_data():
+    """
+    Main processing pipeline.
+    Reads the raw JSON dataset, extracts entities and relationships,
+    and writes the complete knowledge graph to a .metta file.
+    """
     print(f"Reading {JSON_PATH}...")
     with open(JSON_PATH, "r") as f:
         data = json.load(f)
@@ -60,11 +87,12 @@ def process_workflow_data():
         out.write(";; Galaxy Knowledge Graph - Full Import\n\n")
         out.write(";; --- ATOMS ---\n")
 
+        # Iterate over categories in the JSON
         for entry in data:
             cat_name = entry.get("category", "Uncategorized")
             add_node(out, cat_name, "Category")
 
-            # Process Workflows
+            # Process Workflows within each category
             for wf in entry.get("workflow_files", []):
                 wf_name = wf.get("workflow_name", "Unnamed Workflow")
                 add_node(out, wf_name, "Workflow")
@@ -72,6 +100,7 @@ def process_workflow_data():
                 # Edge: Category -> Workflow
                 add_edge(out, "HAS_WORKFLOW", cat_name, wf_name)
 
+                # Normalize 'steps' since it can be a list or dict in source
                 steps = wf.get("steps", {})
                 step_map = {}
                 if isinstance(steps, list):
@@ -81,7 +110,7 @@ def process_workflow_data():
                     for k, v in steps.items():
                         step_map[v.get("step_id")] = v
 
-                # Process Steps
+                # Create nodes for each Step in the workflow
                 for step_id, step in step_map.items():
                     # Create unique Step ID: WorkflowName_StepID
                     step_unique_name = f"{wf_name}_Step_{step_id}"

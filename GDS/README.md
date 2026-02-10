@@ -47,6 +47,13 @@ Run the high-performance loader which injects data directly into the MORK backen
 ./run_gds.sh
 ```
 
+**Options:**
+- **Standard Output** (Default): Prints detailed results line-by-line.
+- **Summary Report**: Generates a statistical summary (histograms, motif counts) and saves a JSON report.
+  ```bash
+  ./run_gds.sh --report summary
+  ```
+
 This script performs the following steps:
 1.  **Benchmarks** the data ingest speed (Python Read -> Rust FFI -> MORK Space).
 2.  Loads the **Schema** definitions.

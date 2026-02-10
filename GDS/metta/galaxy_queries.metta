@@ -87,12 +87,10 @@
       (foldall count-plus-one
          (let $b (superpose $nbrs)
             (let $c (superpose $nbrs)
-               (if (and
-                  (not (== $b $c))
-                  (check-connection $b $c)
-               )
-               (FoundTriangle)
-               (empty)
+               (let True (not (== $b $c))
+                  (let False (== (collapse (check-connection $b $c)) ())
+                     (FoundTriangle)
+                  )
                )
             )
          )
@@ -135,8 +133,8 @@
 ;; finding triangle
 !("Motif: Triangles Found:")
 !(let $node (get-all-nodes) 
-   (let $b (superpose (neighbors-list $node))
-      (let $c (superpose (neighbors-list $node))
+   (let $b (neighbors-of $node)
+      (let $c (neighbors-of $node)
          (if (and
             (not (== $b $c))
             (check-connection $b $c)
@@ -146,7 +144,7 @@
          )
       )
    )
-)  
+)
 
 
 

@@ -15,6 +15,5 @@ fi
 echo "Running GDS with high-performance MORK loader..."
 echo "Using Library: $MORK_LIB"
 
-# LD_PRELOAD is required to inject the Rust symbols (rust_mork) into the 
-# process space before the Prolog/Python bridge (morklib.so) is loaded.
-LD_PRELOAD="$MORK_LIB" python3 python/run_gds.py | tee "$LOG_FILE"
+# Pass arguments ("$@") to the python script so flags work
+LD_PRELOAD="$MORK_LIB" python3 python/run_gds.py "$@" | tee "$LOG_FILE"
