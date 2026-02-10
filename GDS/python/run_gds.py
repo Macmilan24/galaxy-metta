@@ -95,7 +95,6 @@ def process_gds_results(results):
                     .replace(",", "")
                 )
                 parts = cleaned_str.split()
-                # We expect the last part to be the numeric value
                 if len(parts) >= 1:
                     val = parts[-1]
                     raw_degrees.append(int(val))
