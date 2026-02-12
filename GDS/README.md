@@ -36,137 +36,75 @@ Searches for specific geometric shapes in the graph.
 ## Usage
 
 ### 1. Generate Full Data
-First, convert the raw JSON data into MeTTa format:
+First, convert the raw JSON data into pre-optimized MeTTa S-expressions:
 ```bash
 python3 python/json_to_metta.py
 ```
 
-### 2. Run Queries
-To run the analysis on the sample data (default):
+### 2. Run GDS Pipeline
+Run the high-performance loader which injects data directly into the MORK backend:
 ```bash
 ./run_gds.sh
 ```
 
-To run on the full dataset, ensure `galaxy_queries.metta` imports `galaxy_data_full.metta`.
+**Options:**
+- **Standard Output** (Default): Prints detailed results line-by-line.
+- **Summary Report**: Generates a statistical summary (histograms, motif counts) and saves a JSON report.
+  ```bash
+  ./run_gds.sh --report summary
+  ```
+
+This script performs the following steps:
+1.  **Benchmarks** the data ingest speed (Python Read -> Rust FFI -> MORK Space).
+2.  Loads the **Schema** definitions.
+3.  Executes the **GDS Algorithms** (queries).
+
+
+### Slow Performance
+**Symptom**: Queries take >30 seconds
+
+**Check**:
+1. Is MORK backend enabled? (Check for "mork" in run.sh command)
+2. Are symbols >64 bytes? (Check data file)
+3. Is the data file corrupted? (Regenerate with json_to_metta.py)
 
 ## Sample Output
 
-```text
-("checking query 1 ...")
+```
+=== Query 1: Node Degrees (Connectivity) ===
 ("Degree of" "Genomics" ":" 3)
 ("Degree of" "Assembly_VGP0" ":" 6)
 ("Degree of" "minimap2" ":" 4)
 ("Degree of" "hifiasm" ":" 4)
-("Degree of" "S1_Load" ":" 2)
-("Degree of" "S2_Map" ":" 6)
-("Degree of" "S3_Assemble" ":" 3)
-("Degree of" "fastq_reads" ":" 1)
-("Degree of" "assembly_gfa" ":" 1)
-("Checking query 2: Clustering Coefficient ...")
+
+=== Query 2: Local Clustering Coefficient ===
 ("LCC of" "Genomics" ":" 0.6666666666666666)
 ("LCC of" "Assembly_VGP0" ":" 0.4)
 ("LCC of" "minimap2" ":" 0.3333333333333333)
-("LCC of" "hifiasm" ":" 0.3333333333333333)
-("LCC of" "S1_Load" ":" 1)
-("LCC of" "S2_Map" ":" 0.2)
-("LCC of" "S3_Assemble" ":" 0.6666666666666666)
-("LCC of" "fastq_reads" ":" 0.0)
-("LCC of" "assembly_gfa" ":" 0.0)
-("Motif: Triangles Found:")
+
+=== Query 3a: Triangles (Closed Triads) ===
 (Triangle "Genomics" "Assembly_VGP0" "minimap2")
 (Triangle "Genomics" "Assembly_VGP0" "hifiasm")
-(Triangle "Genomics" "minimap2" "Assembly_VGP0")
-(Triangle "Genomics" "hifiasm" "Assembly_VGP0")
-(Triangle "Assembly_VGP0" "S1_Load" "S2_Map")
-(Triangle "Assembly_VGP0" "S2_Map" "S1_Load")
-(Triangle "Assembly_VGP0" "S2_Map" "S3_Assemble")
-(Triangle "Assembly_VGP0" "S2_Map" "minimap2")
-(Triangle "Assembly_VGP0" "S3_Assemble" "S2_Map")
-(Triangle "Assembly_VGP0" "S3_Assemble" "hifiasm")
-(Triangle "Assembly_VGP0" "minimap2" "S2_Map")
-(Triangle "Assembly_VGP0" "minimap2" "Genomics")
-(Triangle "Assembly_VGP0" "hifiasm" "S3_Assemble")
-(Triangle "Assembly_VGP0" "hifiasm" "Genomics")
-(Triangle "Assembly_VGP0" "Genomics" "minimap2")
-(Triangle "Assembly_VGP0" "Genomics" "hifiasm")
-(Triangle "minimap2" "Genomics" "Assembly_VGP0")
-(Triangle "minimap2" "Assembly_VGP0" "Genomics")
-(Triangle "minimap2" "Assembly_VGP0" "S2_Map")
-(Triangle "minimap2" "S2_Map" "Assembly_VGP0")
-(Triangle "hifiasm" "Genomics" "Assembly_VGP0")
-(Triangle "hifiasm" "Assembly_VGP0" "Genomics")
-(Triangle "hifiasm" "Assembly_VGP0" "S3_Assemble")
-(Triangle "hifiasm" "S3_Assemble" "Assembly_VGP0")
-(Triangle "S1_Load" "S2_Map" "Assembly_VGP0")
-(Triangle "S1_Load" "Assembly_VGP0" "S2_Map")
-(Triangle "S2_Map" "S3_Assemble" "Assembly_VGP0")
-(Triangle "S2_Map" "minimap2" "Assembly_VGP0")
-(Triangle "S2_Map" "Assembly_VGP0" "S3_Assemble")
-(Triangle "S2_Map" "Assembly_VGP0" "minimap2")
-(Triangle "S2_Map" "Assembly_VGP0" "S1_Load")
-(Triangle "S2_Map" "S1_Load" "Assembly_VGP0")
-(Triangle "S3_Assemble" "hifiasm" "Assembly_VGP0")
-(Triangle "S3_Assemble" "Assembly_VGP0" "hifiasm")
-(Triangle "S3_Assemble" "Assembly_VGP0" "S2_Map")
-(Triangle "S3_Assemble" "S2_Map" "Assembly_VGP0")
-("Motif: Open Triads Found:")
-(OpenTriad "Genomics" "->" "Assembly_VGP0" "->" "S1_Load")
-(OpenTriad "Genomics" "->" "Assembly_VGP0" "->" "S2_Map")
-(OpenTriad "Genomics" "->" "Assembly_VGP0" "->" "S3_Assemble")
-(OpenTriad "Genomics" "->" "minimap2" "->" "fastq_reads")
-(OpenTriad "Genomics" "->" "minimap2" "->" "S2_Map")
-(OpenTriad "Genomics" "->" "hifiasm" "->" "assembly_gfa")
-(OpenTriad "Genomics" "->" "hifiasm" "->" "S3_Assemble")
-(OpenTriad "Assembly_VGP0" "->" "S2_Map" "->" "mapped_reads")
-(OpenTriad "Assembly_VGP0" "->" "S2_Map" "->" "raw_reads")
-(OpenTriad "Assembly_VGP0" "->" "minimap2" "->" "fastq_reads")
-(OpenTriad "Assembly_VGP0" "->" "hifiasm" "->" "assembly_gfa")
-(OpenTriad "minimap2" "->" "Genomics" "->" "hifiasm")
-(OpenTriad "minimap2" "->" "Assembly_VGP0" "->" "S1_Load")
-(OpenTriad "minimap2" "->" "Assembly_VGP0" "->" "S3_Assemble")
-(OpenTriad "minimap2" "->" "Assembly_VGP0" "->" "hifiasm")
-(OpenTriad "minimap2" "->" "S2_Map" "->" "S3_Assemble")
-(OpenTriad "minimap2" "->" "S2_Map" "->" "mapped_reads")
-(OpenTriad "minimap2" "->" "S2_Map" "->" "raw_reads")
-(OpenTriad "minimap2" "->" "S2_Map" "->" "S1_Load")
-(OpenTriad "hifiasm" "->" "Genomics" "->" "minimap2")
-(OpenTriad "hifiasm" "->" "Assembly_VGP0" "->" "S1_Load")
-(OpenTriad "hifiasm" "->" "Assembly_VGP0" "->" "S2_Map")
-(OpenTriad "hifiasm" "->" "Assembly_VGP0" "->" "minimap2")
-(OpenTriad "hifiasm" "->" "S3_Assemble" "->" "S2_Map")
-(OpenTriad "S1_Load" "->" "S2_Map" "->" "S3_Assemble")
-(OpenTriad "S1_Load" "->" "S2_Map" "->" "minimap2")
-(OpenTriad "S1_Load" "->" "S2_Map" "->" "mapped_reads")
-(OpenTriad "S1_Load" "->" "S2_Map" "->" "raw_reads")
-(OpenTriad "S1_Load" "->" "Assembly_VGP0" "->" "S3_Assemble")
-(OpenTriad "S1_Load" "->" "Assembly_VGP0" "->" "minimap2")
-(OpenTriad "S1_Load" "->" "Assembly_VGP0" "->" "hifiasm")
-(OpenTriad "S1_Load" "->" "Assembly_VGP0" "->" "Genomics")
-(OpenTriad "S2_Map" "->" "S3_Assemble" "->" "hifiasm")
-(OpenTriad "S2_Map" "->" "minimap2" "->" "fastq_reads")
-(OpenTriad "S2_Map" "->" "minimap2" "->" "Genomics")
-(OpenTriad "S2_Map" "->" "Assembly_VGP0" "->" "hifiasm")
-(OpenTriad "S2_Map" "->" "Assembly_VGP0" "->" "Genomics")
-(OpenTriad "S3_Assemble" "->" "hifiasm" "->" "assembly_gfa")
-(OpenTriad "S3_Assemble" "->" "hifiasm" "->" "Genomics")
-(OpenTriad "S3_Assemble" "->" "Assembly_VGP0" "->" "S1_Load")
-(OpenTriad "S3_Assemble" "->" "Assembly_VGP0" "->" "minimap2")
-(OpenTriad "S3_Assemble" "->" "Assembly_VGP0" "->" "Genomics")
-(OpenTriad "S3_Assemble" "->" "S2_Map" "->" "minimap2")
-(OpenTriad "S3_Assemble" "->" "S2_Map" "->" "mapped_reads")
-(OpenTriad "S3_Assemble" "->" "S2_Map" "->" "raw_reads")
-(OpenTriad "S3_Assemble" "->" "S2_Map" "->" "S1_Load")
-(OpenTriad "fastq_reads" "->" "minimap2" "->" "Genomics")
-(OpenTriad "fastq_reads" "->" "minimap2" "->" "Assembly_VGP0")
-(OpenTriad "fastq_reads" "->" "minimap2" "->" "S2_Map")
-(OpenTriad "assembly_gfa" "->" "hifiasm" "->" "Genomics")
-(OpenTriad "assembly_gfa" "->" "hifiasm" "->" "Assembly_VGP0")
-(OpenTriad "assembly_gfa" "->" "hifiasm" "->" "S3_Assemble")
-("Checking Hubs (Threshold >= 3):")
+
+=== Query 4: Hub Detection (Threshold >= 3) ===
 (Hub "Genomics" (Degree 3))
 (Hub "Assembly_VGP0" (Degree 6))
 (Hub "minimap2" (Degree 4))
-(Hub "hifiasm" (Degree 4))
-(Hub "S2_Map" (Degree 6))
-(Hub "S3_Assemble" (Degree 3))
 ```
+
+## Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `USE_MORK` | `true` | Enable MORK backend |
+| `CHUNK_SIZE` | `0` | Atoms per chunk (0=off) |
+
+## References
+
+- **MORK**: https://github.com/trueagi-io/MORK
+- **MeTTa**: https://github.com/trueagi-io/hyperon-experimental
+- **MM2 Format**: https://github.com/trueagi-io/MORK/wiki/Data-in-MORK
+
+## License
+
+Same as parent project.

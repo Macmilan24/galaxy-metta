@@ -1,0 +1,6435 @@
+{
+  "degree": {
+    "bins": [
+      {
+        "degree": 1,
+        "frequency": 454
+      },
+      {
+        "degree": 2,
+        "frequency": 288
+      },
+      {
+        "degree": 3,
+        "frequency": 246
+      },
+      {
+        "degree": 4,
+        "frequency": 453
+      },
+      {
+        "degree": 5,
+        "frequency": 323
+      },
+      {
+        "degree": 6,
+        "frequency": 121
+      },
+      {
+        "degree": 7,
+        "frequency": 80
+      },
+      {
+        "degree": 8,
+        "frequency": 63
+      },
+      {
+        "degree": 9,
+        "frequency": 38
+      },
+      {
+        "degree": 10,
+        "frequency": 33
+      },
+      {
+        "degree": 11,
+        "frequency": 21
+      },
+      {
+        "degree": 12,
+        "frequency": 16
+      },
+      {
+        "degree": 13,
+        "frequency": 9
+      },
+      {
+        "degree": 14,
+        "frequency": 9
+      },
+      {
+        "degree": 15,
+        "frequency": 12
+      },
+      {
+        "degree": 16,
+        "frequency": 11
+      },
+      {
+        "degree": 17,
+        "frequency": 6
+      },
+      {
+        "degree": 18,
+        "frequency": 5
+      },
+      {
+        "degree": 19,
+        "frequency": 8
+      },
+      {
+        "degree": 20,
+        "frequency": 10
+      },
+      {
+        "degree": 21,
+        "frequency": 4
+      },
+      {
+        "degree": 22,
+        "frequency": 4
+      },
+      {
+        "degree": 23,
+        "frequency": 6
+      },
+      {
+        "degree": 24,
+        "frequency": 5
+      },
+      {
+        "degree": 25,
+        "frequency": 3
+      },
+      {
+        "degree": 26,
+        "frequency": 3
+      },
+      {
+        "degree": 28,
+        "frequency": 3
+      },
+      {
+        "degree": 29,
+        "frequency": 5
+      },
+      {
+        "degree": 30,
+        "frequency": 1
+      },
+      {
+        "degree": 31,
+        "frequency": 1
+      },
+      {
+        "degree": 32,
+        "frequency": 2
+      },
+      {
+        "degree": 33,
+        "frequency": 2
+      },
+      {
+        "degree": 34,
+        "frequency": 1
+      },
+      {
+        "degree": 35,
+        "frequency": 4
+      },
+      {
+        "degree": 36,
+        "frequency": 1
+      },
+      {
+        "degree": 37,
+        "frequency": 2
+      },
+      {
+        "degree": 39,
+        "frequency": 2
+      },
+      {
+        "degree": 42,
+        "frequency": 1
+      },
+      {
+        "degree": 44,
+        "frequency": 1
+      },
+      {
+        "degree": 45,
+        "frequency": 1
+      },
+      {
+        "degree": 48,
+        "frequency": 1
+      },
+      {
+        "degree": 49,
+        "frequency": 1
+      },
+      {
+        "degree": 50,
+        "frequency": 1
+      },
+      {
+        "degree": 51,
+        "frequency": 1
+      },
+      {
+        "degree": 52,
+        "frequency": 1
+      },
+      {
+        "degree": 53,
+        "frequency": 1
+      },
+      {
+        "degree": 54,
+        "frequency": 1
+      },
+      {
+        "degree": 56,
+        "frequency": 1
+      },
+      {
+        "degree": 59,
+        "frequency": 1
+      },
+      {
+        "degree": 60,
+        "frequency": 1
+      },
+      {
+        "degree": 62,
+        "frequency": 1
+      },
+      {
+        "degree": 63,
+        "frequency": 1
+      },
+      {
+        "degree": 64,
+        "frequency": 1
+      },
+      {
+        "degree": 66,
+        "frequency": 1
+      },
+      {
+        "degree": 67,
+        "frequency": 2
+      },
+      {
+        "degree": 73,
+        "frequency": 1
+      },
+      {
+        "degree": 79,
+        "frequency": 3
+      },
+      {
+        "degree": 86,
+        "frequency": 1
+      },
+      {
+        "degree": 88,
+        "frequency": 1
+      },
+      {
+        "degree": 93,
+        "frequency": 1
+      },
+      {
+        "degree": 102,
+        "frequency": 1
+      },
+      {
+        "degree": 111,
+        "frequency": 1
+      }
+    ]
+  },
+  "clustering": {
+    "local": {
+      "avg": 0.3606588019704323,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 0.37777777777777777,
+      "stdev": 0.31573790023084436
+    },
+    "global": 0.9383123024129266
+  },
+  "motifs": {
+    "triangles": 34726,
+    "triangles_unique_approx": 11575,
+    "openTriads": 6849,
+    "hubs": [
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_b4ee2f91",
+        "degree": 111
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_e27e679f",
+        "degree": 102
+      },
+      {
+        "node": "vgp_assembly_v2_7fb545de",
+        "degree": 93
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_compose_text_param_compose_tex",
+        "degree": 88
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_452e6fc6",
+        "degree": 86
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_90cfd918",
+        "degree": 79
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_d1aac97c",
+        "degree": 79
+      },
+      {
+        "node": "output_78e6221f",
+        "degree": 79
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_bc266484",
+        "degree": 73
+      },
+      {
+        "node": "sars_cov_2_variant_calling_bc1c62d7",
+        "degree": 67
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_a9c6656f",
+        "degree": 67
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_245eecee",
+        "degree": 66
+      },
+      {
+        "node": "param_value_from_file_a15360c3",
+        "degree": 64
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_f4313bf5",
+        "degree": 63
+      },
+      {
+        "node": "microbiome_c0b9d212",
+        "degree": 62
+      },
+      {
+        "node": "Cut1_225a4f3a",
+        "degree": 60
+      },
+      {
+        "node": "virology_b765de61",
+        "degree": 59
+      },
+      {
+        "node": "epigenetics_132f58ce",
+        "degree": 56
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_0a2c4f1e",
+        "degree": 54
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_79fc89eb",
+        "degree": 53
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_gfastats_gfastats_1_3_11",
+        "degree": 52
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_b39de1a6",
+        "degree": 51
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_34b0c899",
+        "degree": 50
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_4f4b582f",
+        "degree": 49
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_9c77c108",
+        "degree": 48
+      },
+      {
+        "node": "EXTRACT_DATASET_69207e28",
+        "degree": 45
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_373d91bf",
+        "degree": 44
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pick_value_pick_value_0_2_0_92",
+        "degree": 42
+      },
+      {
+        "node": "scrnaseq_61220f32",
+        "degree": 39
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_awk_t",
+        "degree": 39
+      },
+      {
+        "node": "computational_chemistry_770a7edc",
+        "degree": 37
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_58bb432f",
+        "degree": 37
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_find_",
+        "degree": 36
+      },
+      {
+        "node": "COVID_19_consensus_construction_da7607cc",
+        "degree": 35
+      },
+      {
+        "node": "Influenza_A_isolate_subtyping_and_consensus_sequence_generation",
+        "degree": 35
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_column_maker_Add_a_column1",
+        "degree": 35
+      },
+      {
+        "node": "Influenza_A_isolate_subtyping_and_consensus_sequence_generation",
+        "degree": 35
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_3006a86c",
+        "degree": 34
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_split_file_to_collection",
+        "degree": 33
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_nml_collapse_collections_collapse_",
+        "degree": 33
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_map_param_value_map_param_valu",
+        "degree": 32
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_samtools_view_samtools_view_1_",
+        "degree": 32
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_2df4ff74",
+        "degree": 31
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_2e5f5b01",
+        "degree": 30
+      },
+      {
+        "node": "metabolomics_034554f0",
+        "degree": 29
+      },
+      {
+        "node": "transcriptomics_552e91b5",
+        "degree": 29
+      },
+      {
+        "node": "variant_calling_cd66ae64",
+        "degree": 29
+      },
+      {
+        "node": "Assembly_decontamination_VGP9_5324f2db",
+        "degree": 29
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_samtools_stats_samtools_st",
+        "degree": 29
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_353f24c4",
+        "degree": 28
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_05a7a31b",
+        "degree": 28
+      },
+      {
+        "node": "Filter1_d7af1ce5",
+        "degree": 28
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_15857f8c",
+        "degree": 26
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_grep_",
+        "degree": 26
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_purge_dups_purge_dups_1_2_6_ga",
+        "degree": 26
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_3311608c",
+        "degree": 25
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_d6eb7e8d",
+        "degree": 25
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_27_galaxy3_7",
+        "degree": 25
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_c9630967",
+        "degree": 24
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_bb8edbb4",
+        "degree": 24
+      },
+      {
+        "node": "Variant_calling_and_consensus_construction_from_paired_end_shor",
+        "degree": 24
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_macs2_macs2_callpeak_2_2_9_1_g",
+        "degree": 24
+      },
+      {
+        "node": "Variant_calling_and_consensus_construction_from_paired_end_shor",
+        "degree": 24
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_c52eb8e7",
+        "degree": 23
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_916a0b6a",
+        "degree": 23
+      },
+      {
+        "node": "Genome_Assembly_with_Pacbio_Hifi_reads_and_Trio_data_for_phasin",
+        "degree": 23
+      },
+      {
+        "node": "APPLY_RULES_1a913e72",
+        "degree": 23
+      },
+      {
+        "node": "Genome_Assembly_with_Pacbio_Hifi_reads_and_Trio_data_for_phasin",
+        "degree": 23
+      },
+      {
+        "node": "out_file1_32a3e2ea",
+        "degree": 23
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_77aad863",
+        "degree": 22
+      },
+      {
+        "node": "Genome_annotation_with_Maker_9741b2af",
+        "degree": 22
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_e7dba9f5",
+        "degree": 22
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_hifiasm_hifiasm_0_25_0_g",
+        "degree": 22
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_f8559f71",
+        "degree": 21
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_0fa3980d",
+        "degree": 21
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_sed_t",
+        "degree": 21
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_picard_picard_MarkDuplicat",
+        "degree": 21
+      },
+      {
+        "node": "bacterial_genomics_a2126327",
+        "degree": 20
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_8cae6e02",
+        "degree": 20
+      },
+      {
+        "node": "CUT_RUN_CUT_TAG_Analysis_Protein_DNA_Interaction_Mapping_7f33e1",
+        "degree": 20
+      },
+      {
+        "node": "Consensus_Peak_Calling_for_ATAC_seq_and_CUT_RUN_Replicates_9a4a",
+        "degree": 20
+      },
+      {
+        "node": "FLATTEN_d43fb72b",
+        "degree": 20
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_easyj",
+        "degree": 20
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_text_",
+        "degree": 20
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bakta_bakta_1_9_4_galaxy1_af28",
+        "degree": 20
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_compleasm_compleasm_0_2_6_gala",
+        "degree": 20
+      },
+      {
+        "node": "Consensus_Peak_Calling_for_ATAC_seq_and_CUT_RUN_Replicates_Step",
+        "degree": 20
+      },
+      {
+        "node": "genome_assembly_4ff1550b",
+        "degree": 19
+      },
+      {
+        "node": "genome_annotation_a663516e",
+        "degree": 19
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_85b30edc",
+        "degree": 19
+      },
+      {
+        "node": "Consensus_Peak_Calling_for_ChIP_seq_Paired_End_Replicates_8f3c1",
+        "degree": 19
+      },
+      {
+        "node": "Consensus_Peak_Calling_for_ChIP_seq_Single_End_Replicates_f2d00",
+        "degree": 19
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_busco_busco_5_8_0_galaxy1_8572",
+        "degree": 19
+      },
+      {
+        "node": "Consensus_Peak_Calling_for_ChIP_seq_Paired_End_Replicates_Step_",
+        "degree": 19
+      },
+      {
+        "node": "Consensus_Peak_Calling_for_ChIP_seq_Single_End_Replicates_Step_",
+        "degree": 19
+      },
+      {
+        "node": "Metagenomics_Taxonomic_and_Antibiotic_Resistance_Gene_ARG_Profi",
+        "degree": 18
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_merqury_merqury_1_3_galaxy4_58",
+        "degree": 18
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpsift_snpSift_filter_4_3_t_g",
+        "degree": 18
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_38_5",
+        "degree": 18
+      },
+      {
+        "node": "Metagenomics_Taxonomic_and_Antibiotic_Resistance_Gene_ARG_Profi",
+        "degree": 18
+      },
+      {
+        "node": "AMR_Gene_Detection_1c993d89",
+        "degree": 17
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_bde611b9",
+        "degree": 17
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_3b3bb06a",
+        "degree": 17
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_lofreq_viterbi_lofreq_viterbi_",
+        "degree": 17
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_27_galaxy4_f",
+        "degree": 17
+      },
+      {
+        "node": "outfile_6279b3fa",
+        "degree": 17
+      },
+      {
+        "node": "Single_Cell_RNA_seq_Analysis_Scanpy_Preprocessing_and_Clusterin",
+        "degree": 16
+      },
+      {
+        "node": "join1_7f06f4e6",
+        "degree": 16
+      },
+      {
+        "node": "wig_to_bigWig_fb997e8a",
+        "degree": 16
+      },
+      {
+        "node": "UNZIP_COLLECTION_91bd8008",
+        "degree": 16
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_cat_9",
+        "degree": 16
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_repla",
+        "degree": 16
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_gmx_sim_gmx_sim_2022_gala",
+        "degree": 16
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_staramr_staramr_search_0_11_0_",
+        "degree": 16
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_tooldistillator_summarize_tool",
+        "degree": 16
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_27_d6be4906",
+        "degree": 16
+      },
+      {
+        "node": "Single_Cell_RNA_seq_Analysis_Scanpy_Preprocessing_and_Clusterin",
+        "degree": 16
+      },
+      {
+        "node": "BREW3R_94f66f87",
+        "degree": 15
+      },
+      {
+        "node": "lncRNAs_annotation_workflow_bce7d5f1",
+        "degree": 15
+      },
+      {
+        "node": "Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_067aed6b",
+        "degree": 15
+      },
+      {
+        "node": "RNA_Seq_Differential_Expression_Analysis_with_Visualization_c48",
+        "degree": 15
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_gffread_gffread_2_2_1_4_ga",
+        "degree": 15
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_lofreq_call_lofreq_call_2_1_5_",
+        "degree": 15
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_27_galaxy0_d",
+        "degree": 15
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_qualimap_bamqc_qualimap_bamqc_",
+        "degree": 15
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpeff_sars_cov_2_snpeff_sars_",
+        "degree": 15
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpsift_snpSift_extractFields_",
+        "degree": 15
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_tooldistillator_tooldistillato",
+        "degree": 15
+      },
+      {
+        "node": "RNA_Seq_Differential_Expression_Analysis_with_Visualization_Ste",
+        "degree": 15
+      },
+      {
+        "node": "Mitogenome_Assembly_VGP0_85cd6073",
+        "degree": 14
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_6a1c3a36",
+        "degree": 14
+      },
+      {
+        "node": "Hi_C_Data_Processing_FASTQ_to_Valid_Interaction_Pairs_e09f6edc",
+        "degree": 14
+      },
+      {
+        "node": "FILTER_FAILED_DATASETS_a84cc2d2",
+        "degree": 14
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_deeptools_bigwig_average",
+        "degree": 14
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_mitohifi_mitohifi_3_2_3_",
+        "degree": 14
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fastp_fastp_0_23_2_galaxy0_2f9",
+        "degree": 14
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fastp_fastp_1_0_1_galaxy2_44db",
+        "degree": 14
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_44_94913c4f",
+        "degree": 14
+      },
+      {
+        "node": "Bacterial_Genome_Assembly_using_Shovill_f7a42efb",
+        "degree": 13
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_a603961d",
+        "degree": 13
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_cut_t",
+        "degree": 13
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_bwa_bwa_mem_0_7_17_2_80293",
+        "degree": 13
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_baredsc_2d_baredsc_2d_1_1_3_ga",
+        "degree": 13
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_lofreq_filter_lofreq_filter_2_",
+        "degree": 13
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_22_378babd8",
+        "degree": 13
+      },
+      {
+        "node": "input_a43c1b0a",
+        "degree": 13
+      },
+      {
+        "node": "output1_b31ae7ae",
+        "degree": 13
+      },
+      {
+        "node": "amplicon_367cf84f",
+        "degree": 12
+      },
+      {
+        "node": "Fragment_based_virtual_screening_using_rDock_for_docking_and_Su",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_bowtie2_bowtie2_2_5_3_gala",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_bowtie2_bowtie2_2_5_4_gala",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bandage_bandage_image_2022_09_",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_baredsc_1d_baredsc_1d_1_1_3_ga",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bedtools_bedtools_intersectbed",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_collection_column_join_collect",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_datamash_ops_datamash_ops_1_1_",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_drep_dereplicate_drep_dereplic",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_genomescope_genomescope_2_0_1_",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_quast_quast_5_3_0_galaxy1_9987",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_rgrnastar_rna_star_2_7_11a_gal",
+        "degree": 12
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_stringtie_stringtie_2_2_3_gala",
+        "degree": 12
+      },
+      {
+        "node": "CUT_RUN_CUT_TAG_Analysis_Protein_DNA_Interaction_Mapping_Step_1",
+        "degree": 12
+      },
+      {
+        "node": "Fragment_based_virtual_screening_using_rDock_for_docking_and_Su",
+        "degree": 12
+      },
+      {
+        "node": "data_fetching_a98de63e",
+        "degree": 11
+      },
+      {
+        "node": "Hi_C_Format_Conversion_Juicer_Medium_to_Cooler_Files_422f048d",
+        "degree": 11
+      },
+      {
+        "node": "Molecular_formula_assignment_and_recalibration_with_MFAssignR_p",
+        "degree": 11
+      },
+      {
+        "node": "RNA_Seq_Analysis_Paired_End_Read_Processing_and_Quantification_",
+        "degree": 11
+      },
+      {
+        "node": "Single_Cell_Pseudobulk_Differential_Expression_Analysis_with_ed",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_imagemagick_image_montag",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_busco_busco_5_7_1_galaxy0_2052",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_datamash_ops_datamash_ops_1_8_",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fastp_fastp_1_0_1_galaxy3_3339",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ggplot2_point_ggplot2_point_3_",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_lofreq_indelqual_lofreq_indelq",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_maker_maker_2_31_11_galaxy2_2b",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pretext_graph_pretext_graph_0_",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lparsons_cutadapt_cutadapt_5_1_gal",
+        "degree": 11
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_mbernt_maxbin2_maxbin2_2_2_7_galax",
+        "degree": 11
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_34_4895f9f1",
+        "degree": 11
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_60_9",
+        "degree": 11
+      },
+      {
+        "node": "Molecular_formula_assignment_and_recalibration_with_MFAssignR_p",
+        "degree": 11
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_47_57",
+        "degree": 11
+      },
+      {
+        "node": "RNA_Seq_Analysis_Paired_End_Read_Processing_and_Quantification_",
+        "degree": 11
+      },
+      {
+        "node": "Single_Cell_Pseudobulk_Differential_Expression_Analysis_with_ed",
+        "degree": 11
+      },
+      {
+        "node": "Genome_assembly_with_Flye_a49e06dc",
+        "degree": 10
+      },
+      {
+        "node": "QCxMS_Spectra_Prediction_from_SDF_152d5538",
+        "degree": 10
+      },
+      {
+        "node": "Short_read_quality_control_and_trimming_404a64c9",
+        "degree": 10
+      },
+      {
+        "node": "Post_Assembly_Quality_Control_and_Contamination_Check_for_Bacte",
+        "degree": 10
+      },
+      {
+        "node": "RNA_Seq_Analysis_Single_End_Read_Processing_and_Quantification_",
+        "degree": 10
+      },
+      {
+        "node": "cat1_a980d106",
+        "degree": 10
+      },
+      {
+        "node": "wc_gnu_b34abd1b",
+        "degree": 10
+      },
+      {
+        "node": "RELABEL_FROM_FILE_cc8e7f59",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_cufflinks_cufflinks_2_2_1_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_amrfinderplus_amrfinderplus_3_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_baredsc_combine_2d_baredsc_com",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bcftools_annotate_bcftools_ann",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_cite_seq_count_cite_seq_count_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fastp_fastp_0_24_0_galaxy4_c15",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_genomescope_genomescope_2_1_0_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_goseq_goseq_1_50_0_galaxy0_669",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_isescan_isescan_1_7_3_galaxy0_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ivar_consensus_ivar_consensus_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ivar_trim_ivar_trim_1_4_4_gala",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_meryl_meryl_1_3_galaxy6_984704",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_minimap2_minimap2_2_28_galaxy2",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_11_galaxy0_2",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_rna_starsolo_rna_starsolo_2_7_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_samtools_merge_samtools_merge_",
+        "degree": 10
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_sra_tools_fasterq_dump_3_1_1_g",
+        "degree": 10
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_8_c6fdb736",
+        "degree": 10
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_11_8bf14866",
+        "degree": 10
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_16_55719275",
+        "degree": 10
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_41_d5b3f2ac",
+        "degree": 10
+      },
+      {
+        "node": "Post_Assembly_Quality_Control_and_Contamination_Check_for_Bacte",
+        "degree": 10
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_30_5f",
+        "degree": 10
+      },
+      {
+        "node": "RNA_Seq_Analysis_Single_End_Read_Processing_and_Quantification_",
+        "degree": 10
+      },
+      {
+        "node": "stats_44650105",
+        "degree": 10
+      },
+      {
+        "node": "proteomics_eee82f81",
+        "degree": 9
+      },
+      {
+        "node": "Parallel_Accession_Download_5038717d",
+        "degree": 9
+      },
+      {
+        "node": "Raw_Read_Quality_and_Contamination_Control_For_Genome_Assembly_",
+        "degree": 9
+      },
+      {
+        "node": "Segmentation_and_counting_of_cell_nuclei_in_fluorescence_micros",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_bionano_scaffold_bionano",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_gfastats_gfastats_1_3_6_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_sort_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_gmx_merge_topology_files_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_bwa_bwa_mem_0_7_19_4bcbca3",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_samtool_filter2_samtool_fi",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_ethevenot_checkformat_checkFormat_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_anndata_inspect_anndata_inspec",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bedtools_bedtools_multiinterse",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_collection_element_identifiers",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_deeparg_short_reads_deeparg_sh",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_iqtree_iqtree_2_4_0_galaxy0_8a",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_jbrowse_jbrowse_1_16_11_galaxy",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ncbi_fcs_gx_ncbi_fcs_gx_0_5_5_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_plasmidfinder_plasmidfinder_2_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_quast_quast_5_3_0_galaxy0_e2b5",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_semibin_semibin_2_1_0_galaxy1_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpeff_snpEff_4_3_T_galaxy1_5f",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_table_compute_table_compute_1_",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_yahs_yahs_1_2a_2_galaxy3_eb80e",
+        "degree": 9
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_yguitton_metams_rungc_metams_runGC",
+        "degree": 9
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_9_d8192001",
+        "degree": 9
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_5_352962d6",
+        "degree": 9
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_28_79044886",
+        "degree": 9
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_1_6605e90c",
+        "degree": 9
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_40_12c17fa1",
+        "degree": 9
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_4_2805fa08",
+        "degree": 9
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_33_7e40e905",
+        "degree": 9
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_30_a82",
+        "degree": 9
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_44_14",
+        "degree": 9
+      },
+      {
+        "node": "Raw_Read_Quality_and_Contamination_Control_For_Genome_Assembly_",
+        "degree": 9
+      },
+      {
+        "node": "Segmentation_and_counting_of_cell_nuclei_in_fluorescence_micros",
+        "degree": 9
+      },
+      {
+        "node": "plot_32fa6e1b",
+        "degree": 9
+      },
+      {
+        "node": "report_e98d2f00",
+        "degree": 9
+      },
+      {
+        "node": "imaging_df28923e",
+        "degree": 8
+      },
+      {
+        "node": "SORTLIST_c18008fa",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_add_line_to_file_add_lin",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_hicup_hicup_hicup_hicup_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_openbabel_compound_conve",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_sorte",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_gmx_em_gmx_em_2022_galaxy",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_bamtools_filter_bamFilter_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_fasta_compute_length_fasta",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_ebi_gxa_decoupler_pseudobulk_decou",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_abricate_abricate_1_0_1_5e580e",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_baredsc_combine_1d_baredsc_com",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bedtools_bedtools_bamtobed_2_3",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bedtools_bedtools_genomecovera",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_binette_binette_1_2_0_galaxy0_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_column_remove_by_header_column",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_datamash_ops_datamash_ops_1_9_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_deseq2_deseq2_2_11_40_8_galaxy",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dropletutils_dropletutils_1_10",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ivar_variants_ivar_variants_1_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_jcvi_gff_stats_jcvi_gff_stats_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_megahit_megahit_1_2_9_galaxy2_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_metabat2_metabat2_2_17_galaxy0",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_24_1_galaxy0",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_omark_omark_0_3_1_galaxy1_db49",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pretext_map_pretext_map_0_1_9_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pretext_snapshot_pretext_snaps",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_prodigal_prodigal_2_6_3_galaxy",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_shovill_shovill_1_1_0_galaxy2_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpeff_snpEff_4_3_T_galaxy2_cc",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpeff_snpEff_5_2_galaxy1_5d2f",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpeff_snpEff_build_gb_4_3_T_g",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_xcms_group_abims_xcms_",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_xcms_plot_chromatogram",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_xcms_xcmsset_abims_xcm",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lparsons_cutadapt_cutadapt_4_9_gal",
+        "degree": 8
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_melpetera_intensity_checks_intens_",
+        "degree": 8
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_9_f71103cf",
+        "degree": 8
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_8_a6231d65",
+        "degree": 8
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_8_c0d9386c",
+        "degree": 8
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_18_cc4ce828",
+        "degree": 8
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_23_320ed4ae",
+        "degree": 8
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_41_d24ce636",
+        "degree": 8
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_56_df11dcd2",
+        "degree": 8
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_15_a65bebb9",
+        "degree": 8
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_24_f61e9cb2",
+        "degree": 8
+      },
+      {
+        "node": "Short_read_quality_control_and_trimming_Step_5_64349136",
+        "degree": 8
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_13_78ea127e",
+        "degree": 8
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_Step_8_5c82906f",
+        "degree": 8
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_Step_9_3c3be565",
+        "degree": 8
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_16_4a1b8528",
+        "degree": 8
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_40_9f80d4e9",
+        "degree": 8
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_54_b85b41ee",
+        "degree": 8
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_12_345cdbb7",
+        "degree": 8
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_15_3b4343d5",
+        "degree": 8
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_13_3a4",
+        "degree": 8
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_8_344c",
+        "degree": 8
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_17_f5",
+        "degree": 8
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_7_802",
+        "degree": 8
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_9_5cf",
+        "degree": 8
+      },
+      {
+        "node": "plots_73c9533e",
+        "degree": 8
+      },
+      {
+        "node": "summary_a80da128",
+        "degree": 8
+      },
+      {
+        "node": "html_report_0358de55",
+        "degree": 8
+      },
+      {
+        "node": "BigWig_Replicates_Averaging_Workflow_eb1ddade",
+        "degree": 7
+      },
+      {
+        "node": "Show_beginning1_e1a2ef7c",
+        "degree": 7
+      },
+      {
+        "node": "Convert_characters1_996d51ff",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_artbio_concatenate_multiple_datase",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_flye_flye_2_9_6_galaxy0_",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_racon_racon_1_5_0_galaxy",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_sylph_profile_sylph_prof",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_cat_0",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_gmx_setup_gmx_setup_2021_",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_gmx_solvate_gmx_solvate_2",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_parmconv_parmconv_21_10_g",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_samtools_sort_samtools_sor",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_ethevenot_multivariate_Multivariat",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_eggnog_mapper_eggnog_mappe",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_genouest_braker3_braker3_3_0_8_gal",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_checkm2_checkm2_1_1_0_galaxy0_",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_concoct_concoct_1_1_0_galaxy2_",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_filterandtrim_dada2_filt",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_edger_edger_3_36_0_galaxy5_609",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fasta_stats_fasta_stats_2_0_74",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fasta_to_contig2bin_Fasta_to_C",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fastp_fastp_0_24_0_galaxy3_2d8",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_gtdbtk_classify_wf_gtdbtk_clas",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_integron_finder_integron_finde",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_kraken2_kraken2_2_1_3_galaxy1_",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_meryl_count_kmers_meryl_count_",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_meryl_groups_kmers_meryl_group",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_meryl_histogram_kmers_meryl_hi",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_minimap2_minimap2_2_26_galaxy0",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_mmseqs2_easy_linclust_clusteri",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_33_galaxy0_9",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_mvdbeek_add_input_name_as_column_a",
+        "degree": 7
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_richard_burhans_rdeval_rdeval_0_0_",
+        "degree": 7
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_13_1ddab802",
+        "degree": 7
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_7_7d104abc",
+        "degree": 7
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_9_bc33863d",
+        "degree": 7
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_12_9191d349",
+        "degree": 7
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_1_745eaec7",
+        "degree": 7
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_8_9122c25f",
+        "degree": 7
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_3_156a78a1",
+        "degree": 7
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_13_a5f82d89",
+        "degree": 7
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_11_3e45c7ad",
+        "degree": 7
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_63_e95f32fd",
+        "degree": 7
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_21_55579e71",
+        "degree": 7
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_34_79a5c23b",
+        "degree": 7
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_19_f9b723d7",
+        "degree": 7
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_20_2cf36d76",
+        "degree": 7
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_4_ad170017",
+        "degree": 7
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_6_55148533",
+        "degree": 7
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_8_7c79b3a3",
+        "degree": 7
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_17_56b54e1f",
+        "degree": 7
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_16_ffbbee8d",
+        "degree": 7
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_17_3a8fe60d",
+        "degree": 7
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_17_be2a5c04",
+        "degree": 7
+      },
+      {
+        "node": "Bacterial_Genome_Assembly_using_Shovill_Step_2_6e1e1ee5",
+        "degree": 7
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_1_1e31c1ef",
+        "degree": 7
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_Step_6_47f16969",
+        "degree": 7
+      },
+      {
+        "node": "Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_8_779f5cc4",
+        "degree": 7
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_17_e649cafb",
+        "degree": 7
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_22_b34397f5",
+        "degree": 7
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_39_4657c400",
+        "degree": 7
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_48_0a5e430b",
+        "degree": 7
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_13_115b7f1e",
+        "degree": 7
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_19_e97db34b",
+        "degree": 7
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_5_0dc1",
+        "degree": 7
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_10_42",
+        "degree": 7
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_8_d926d",
+        "degree": 7
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_26_7",
+        "degree": 7
+      },
+      {
+        "node": "Hi_C_Data_Processing_FASTQ_to_Valid_Interaction_Pairs_Step_5_7e",
+        "degree": 7
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_28_",
+        "degree": 7
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_29_",
+        "degree": 7
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_42_",
+        "degree": 7
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_31_64",
+        "degree": 7
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_13_89b1da",
+        "degree": 7
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_12_01",
+        "degree": 7
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_13_c7",
+        "degree": 7
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_14_a4",
+        "degree": 7
+      },
+      {
+        "node": "single_paired_715f4b1d",
+        "degree": 7
+      },
+      {
+        "node": "reference_source_f6be7bfb",
+        "degree": 7
+      },
+      {
+        "node": "report_html_a4e2ba02",
+        "degree": 7
+      },
+      {
+        "node": "Grep1_938e41c5",
+        "degree": 6
+      },
+      {
+        "node": "ZIP_COLLECTION_cb6e1ebe",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_hicup2juicer_hicup2juice",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_biomd_neqgamma_biomd_neqg",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_mmpbsa_mmgbsa_mmpbsa_mmgb",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_bwa_bwa_mem_0_7_18_a165277",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_argnorm_argnorm_1_0_0_galaxy0_",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bcftools_consensus_bcftools_co",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bracken_est_abundance_3_1_gala",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_coreprofiler_allele_calling_co",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_dada_dada2_dada_1_34_0_g",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_learnerrors_dada2_learnE",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_plotqualityprofile_dada2",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_removebimeradenovo_dada2",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_featurecounts_featurecounts_2_",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_mmseqs2_taxonomy_assignment_mm",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_8_galaxy1_39",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pygenometracks_pygenomeTracks_",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_msnbase_readmsdata_msn",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_xcms_fillpeaks_abims_x",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_xcms_merge_xcms_merge_",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lldelisle_cooler_csort_tabix_coole",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_mfassign_mfassig",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_mfassigncho_mfas",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_recal_mfassignr_",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_qcxms_neutral_run_qcxms_ne",
+        "degree": 6
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_table_pandas_rename_column",
+        "degree": 6
+      },
+      {
+        "node": "BREW3R_Step_7_75f2824c",
+        "degree": 6
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_6_57fb91ef",
+        "degree": 6
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_7_5bf0155f",
+        "degree": 6
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_6_567bae29",
+        "degree": 6
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_7_557b3d51",
+        "degree": 6
+      },
+      {
+        "node": "Mitogenome_Assembly_VGP0_Step_8_7f1a865d",
+        "degree": 6
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_6_487d014f",
+        "degree": 6
+      },
+      {
+        "node": "Genome_assembly_with_Flye_Step_1_48421b31",
+        "degree": 6
+      },
+      {
+        "node": "lncRNAs_annotation_workflow_Step_6_f089294b",
+        "degree": 6
+      },
+      {
+        "node": "lncRNAs_annotation_workflow_Step_7_209eecc0",
+        "degree": 6
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_7_a1249815",
+        "degree": 6
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_1_47c3e558",
+        "degree": 6
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_7_e3772224",
+        "degree": 6
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_11_54d19abf",
+        "degree": 6
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_10_73007fa3",
+        "degree": 6
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_12_9ce883c1",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_10_ebd87a78",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_21_fd7188e9",
+        "degree": 6
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_7_7f446548",
+        "degree": 6
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_20_a97a9860",
+        "degree": 6
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_32_6f50fa06",
+        "degree": 6
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_36_a9dabcc7",
+        "degree": 6
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_39_52d1d27e",
+        "degree": 6
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_49_c0289c6d",
+        "degree": 6
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_21_a65add73",
+        "degree": 6
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_3_35c615e9",
+        "degree": 6
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_5_74b27ccf",
+        "degree": 6
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_7_a4895748",
+        "degree": 6
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_9_ee3538a6",
+        "degree": 6
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_5_5f7c08f7",
+        "degree": 6
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_6_acbdc4b2",
+        "degree": 6
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_7_08171a1f",
+        "degree": 6
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_9_2970db09",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_7_47fb5b67",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_8_b60e818a",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_9_f3bd8ce8",
+        "degree": 6
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_19_6db57cfe",
+        "degree": 6
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_33_08ccce0d",
+        "degree": 6
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_34_94d90a44",
+        "degree": 6
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_15_df734877",
+        "degree": 6
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_19_8f2b1441",
+        "degree": 6
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_20_e43f812e",
+        "degree": 6
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_28_b67bc957",
+        "degree": 6
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_34_f0825148",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_19_cf0c9783",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_3_fc017e1c",
+        "degree": 6
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_20_2f87373d",
+        "degree": 6
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_30_e08ea609",
+        "degree": 6
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_Step_5_22850733",
+        "degree": 6
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_Step_6_08154ec0",
+        "degree": 6
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_Step_7_8d931437",
+        "degree": 6
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_5_53f3e5a0",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_5_d756fc3b",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_10_c8dc0b60",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_24_1d42d188",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_28_2e628b05",
+        "degree": 6
+      },
+      {
+        "node": "Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_10_b052eb4f",
+        "degree": 6
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_20_8b876de1",
+        "degree": 6
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_26_7221a776",
+        "degree": 6
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_27_3c1774f7",
+        "degree": 6
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_33_d5827f0f",
+        "degree": 6
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_45_bdb43ae5",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_14_c9d2cb68",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_16_bdb6564a",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_19_ff178ca9",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_26_e4787e6f",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_27_b73d2b81",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_28_61e54eb1",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_33_7f06b833",
+        "degree": 6
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_34_92cdf227",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_14_589ec5ed",
+        "degree": 6
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_18_465bb4ea",
+        "degree": 6
+      },
+      {
+        "node": "CUT_RUN_CUT_TAG_Analysis_Protein_DNA_Interaction_Mapping_Step_6",
+        "degree": 6
+      },
+      {
+        "node": "CUT_RUN_CUT_TAG_Analysis_Protein_DNA_Interaction_Mapping_Step_7",
+        "degree": 6
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_11_bb",
+        "degree": 6
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_12_a7",
+        "degree": 6
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_15_55",
+        "degree": 6
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_5_e0419",
+        "degree": 6
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_6_7a6c0",
+        "degree": 6
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_7_9ce60",
+        "degree": 6
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_22_6",
+        "degree": 6
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_25_4",
+        "degree": 6
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_57_c",
+        "degree": 6
+      },
+      {
+        "node": "Hi_C_Format_Conversion_Juicer_Medium_to_Cooler_Files_Step_5_bd3",
+        "degree": 6
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_28_21",
+        "degree": 6
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_40_f2",
+        "degree": 6
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_11_e6bd51",
+        "degree": 6
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_14_77e6c5",
+        "degree": 6
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_7_581c7f0",
+        "degree": 6
+      },
+      {
+        "node": "out_c68271a6",
+        "degree": 6
+      },
+      {
+        "node": "out1_9bdab36a",
+        "degree": 6
+      },
+      {
+        "node": "xsetRData_9cd05555",
+        "degree": 6
+      },
+      {
+        "node": "snpeff_output_612cf1fd",
+        "degree": 6
+      },
+      {
+        "node": "output_paired_coll_bebcc455",
+        "degree": 6
+      },
+      {
+        "node": "Single_Cell_RNA_seq_Preprocessing_10X_Genomics_CellPlex_Multipl",
+        "degree": 5
+      },
+      {
+        "node": "Single_Cell_RNA_seq_Preprocessing_10X_Genomics_v3_to_Seurat_and",
+        "degree": 5
+      },
+      {
+        "node": "core_genome_Multilocus_Sequence_Typing_cgMLST_of_bacterial_geno",
+        "degree": 5
+      },
+      {
+        "node": "FILTER_FROM_FILE_6a9e3f72",
+        "degree": 5
+      },
+      {
+        "node": "Remove_beginning1_9644c093",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_tail_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_ambertools_acpype_amberto",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_crs4_taxonomy_krona_chart_taxonomy",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_emboss_5_EMBOSS_maskseq51_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_fastq_paired_end_interlace",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_vcfvcfintersect_vcfvcfinte",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_openms_decoydatabase_Decoy",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_openms_idmapper_IDMapper_3",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_openms_metaprosip_MetaProS",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_openms_msgfplusadapter_MSG",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_genouest_helixer_helixer_0_3_3_gal",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bedtools_bedtools_coveragebed_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bedtools_bedtools_slopbed_2_31",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_checkm2_checkm2_1_0_2_galaxy1_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_checkm_lineage_wf_checkm_linea",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_concoct_coverage_table_concoct",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_concoct_cut_up_fasta_concoct_c",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_coverm_genome_coverm_genome_0_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_assigntaxonomyaddspecies",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_makesequencetable_dada2_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fastp_fastp_0_20_1_galaxy0_0d9",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_fastp_fastp_0_24_1_galaxy0_02c",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_feelnc_feelnc_0_2_1_galaxy0_9f",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ivar_removereads_ivar_removere",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_maker_map_ids_maker_map_ids_2_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_medaka_variant_medaka_variant_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_metabat2_jgi_summarize_bam_con",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_multiqc_multiqc_1_11_galaxy1_5",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_nextclade_nextclade_2_7_0_gala",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pairtools_dedup_pairtools_dedu",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pairtools_parse_pairtools_pars",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_parse_mito_blast_parse_mito_bl",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pe_histogram_pe_histogram_1_0_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpfreqplot_snpfreqplot_1_0_ga",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_stringtie_stringtie_merge_2_2_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_camera_annotate_abims_",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lecorguille_xcms_retcor_abims_xcms",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lldelisle_cooler_balance_cooler_ba",
+        "degree": 5
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_richard_burhans_ncbi_fcs_adaptor_n",
+        "degree": 5
+      },
+      {
+        "node": "BREW3R_Step_8_3bb8b6d0",
+        "degree": 5
+      },
+      {
+        "node": "BREW3R_Step_9_75e44b05",
+        "degree": 5
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_8_c324915a",
+        "degree": 5
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_10_f2b0e1dc",
+        "degree": 5
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_12_74a81990",
+        "degree": 5
+      },
+      {
+        "node": "Mitogenome_Assembly_VGP0_Step_7_64a0cb4c",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_9_f72366eb",
+        "degree": 5
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_0_50b3d635",
+        "degree": 5
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_7_d5e88bc1",
+        "degree": 5
+      },
+      {
+        "node": "Parallel_Accession_Download_Step_2_65d5562f",
+        "degree": 5
+      },
+      {
+        "node": "lncRNAs_annotation_workflow_Step_5_4cbeeae3",
+        "degree": 5
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_9_edbb248f",
+        "degree": 5
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_6_01c73d6a",
+        "degree": 5
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_7_0db01926",
+        "degree": 5
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_8_d013b508",
+        "degree": 5
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_3_8edb89bd",
+        "degree": 5
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_11_b8487d29",
+        "degree": 5
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_14_667fcdee",
+        "degree": 5
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_15_0c510464",
+        "degree": 5
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_10_04264766",
+        "degree": 5
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_12_e7390b5d",
+        "degree": 5
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_15_5427dc86",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_7_c0a8fc4a",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_11_5057aedb",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_12_3003dc77",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_17_469ac317",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_19_3f0766ea",
+        "degree": 5
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_5_7ab2934d",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_12_31f35b56",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_21_45e00087",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_22_154374d5",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_24_91ef478d",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_25_dbb41ad7",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_27_f121ded3",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_28_930be9af",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_38_d761d3cd",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_45_f5766946",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_53_e8a03412",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_54_39382bd2",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_59_764c0d1f",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_60_296ecf30",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_61_6a2cb92b",
+        "degree": 5
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_75_26ba63c9",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_16_e0d055ef",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_23_fe7c9c7f",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_24_e2946b10",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_26_fac15837",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_27_bebe92b6",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_29_cd2934dc",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_31_1f44034c",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_32_47d4db7e",
+        "degree": 5
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_33_d3db3fc0",
+        "degree": 5
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_10_0135c4dc",
+        "degree": 5
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_11_2e944cc2",
+        "degree": 5
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_12_87555a17",
+        "degree": 5
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_12_6bb873ed",
+        "degree": 5
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_23_405f7247",
+        "degree": 5
+      },
+      {
+        "node": "QCxMS_Spectra_Prediction_from_SDF_Step_1_9e368f7b",
+        "degree": 5
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_2_2aef0565",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_3_91c582ff",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_5_d154e6eb",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_7_0aca9cbd",
+        "degree": 5
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_10_e3f059ef",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_8_0b610f88",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_7_8b8b6dba",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_16_28547170",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_22_520874ad",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_24_f89aadce",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_26_c9ed2928",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_29_ec2090c0",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_14_a024aba6",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_25_0b7be3a7",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_26_82e47fe9",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_35_503926e8",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_36_26deec60",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_39_04da2f7c",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_40_d49cf4e4",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_42_44ac746f",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_43_64a03eab",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_53_9c6259eb",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_54_b7ac945e",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_10_1df9d37b",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_11_9916d9d2",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_18_79cb4747",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_21_2deb4f31",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_30_f3847ebe",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_32_44980d12",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_33_1e579be9",
+        "degree": 5
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_36_ad24b56f",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_11_465667a7",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_16_e24b22d5",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_21_973eaaab",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_25_90ddd9d2",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_26_25b20beb",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_28_2fe03b62",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_3_d6c3cb8e",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_5_874a355b",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_6_d1aff576",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_7_e746c6aa",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_9_2ff1c263",
+        "degree": 5
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_2_79369741",
+        "degree": 5
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_8_a2707c24",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_1_e9ff5e71",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_2_139ab56d",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_3_be73543c",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_4_4838a642",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_6_79850e85",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_7_ee44c47f",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_8_78b35022",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_9_7a81d54c",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_1_7383a428",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_2_c94d810c",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_4_f1312eef",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_5_1c61003f",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_6_dfead973",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_7_50b79b03",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_8_1b7513f6",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_10_1672d4cf",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_11_8552bc39",
+        "degree": 5
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_12_07ed1c33",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_16_58e8081e",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_17_d8a9bfd9",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_20_4770b2b1",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_26_9c5bb41a",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_31_6333bd31",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_37_01cb6d61",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_38_cddf212a",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_47_f5b382a1",
+        "degree": 5
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_48_a1711842",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_10_1b59ba7f",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_8_99e7f332",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_9_a8d1e1ae",
+        "degree": 5
+      },
+      {
+        "node": "Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_9_7b6ddc4d",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_0_01b2a38b",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_2_aadbd1f1",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_3_173e9715",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_4_96835508",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_5_dbceff53",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_6_38bf016c",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_8_c93ace5b",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_9_066df447",
+        "degree": 5
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_4_42156ab4",
+        "degree": 5
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_6_00132e8a",
+        "degree": 5
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_9_f5dff260",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_3_2b22d853",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_8_4010b33a",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_11_0ad1f41a",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_12_277e3a28",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_13_07775086",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_15_8dd61fba",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_19_b8d389b6",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_20_e21a52e3",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_25_a46fa1d1",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_26_dfefd73f",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_27_30124ed8",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_29_958d36b8",
+        "degree": 5
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_Step_11_61ce041d",
+        "degree": 5
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_Step_12_cb50e4d7",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_24_80233c24",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_25_5b00c043",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_28_c9d96c10",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_29_92099801",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_31_905e41ba",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_32_5a56fbf1",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_37_4620fdbd",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_41_b340180e",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_42_e151d619",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_46_6dab62a2",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_49_14058fbe",
+        "degree": 5
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_50_e104991b",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_10_9b2342e6",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_11_45dc1cfd",
+        "degree": 5
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_13_bc4fe642",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_18_97eb6055",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_21_65035dc5",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_22_780d0e86",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_24_f9023654",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_31_689e2f3e",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_32_b2fba325",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_35_6475420f",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_36_815a56b3",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_37_90c169cd",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_38_2aea3b77",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_39_1a0bf75e",
+        "degree": 5
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_40_e8a0d5ef",
+        "degree": 5
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_10_e1871cad",
+        "degree": 5
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_11_eda960e9",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_10_0c15f1cf",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_16_f4e9e855",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_21_dccd0178",
+        "degree": 5
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_23_bf39d0f5",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_12_c75",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_17_7fd",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_20_020",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_22_926",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_23_c28",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_24_ad1",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_26_acf",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_29_a50",
+        "degree": 5
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_4_3913",
+        "degree": 5
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_13_c6",
+        "degree": 5
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_14_2e",
+        "degree": 5
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_0_8b28f",
+        "degree": 5
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_1_69e3f",
+        "degree": 5
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_2_a5092",
+        "degree": 5
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_3_5d1ee",
+        "degree": 5
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_10_902e",
+        "degree": 5
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_3_95f40",
+        "degree": 5
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_8_21616",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_16_1",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_17_5",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_29_2",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_30_c",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_31_a",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_32_5",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_34_3",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_35_7",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_36_7",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_37_f",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_39_a",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_40_5",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_54_8",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_55_7",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_56_9",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_58_9",
+        "degree": 5
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_59_5",
+        "degree": 5
+      },
+      {
+        "node": "Hi_C_Format_Conversion_Juicer_Medium_to_Cooler_Files_Step_4_fef",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_0_38404289",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_2_a926450c",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_5_fbd45f22",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_6_ccd3f074",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_7_91b2133d",
+        "degree": 5
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_8_df025a86",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_10_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_11_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_16_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_20_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_21_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_22_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_26_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_27_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_35_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_38_",
+        "degree": 5
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_40_",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_15_82",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_17_73",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_18_19",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_26_25",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_27_0b",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_29_ef",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_33_f4",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_34_61",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_36_75",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_38_08",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_42_9e",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_43_35",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_45_b1",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_49_7b",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_50_6e",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_58_f2",
+        "degree": 5
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_59_0e",
+        "degree": 5
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_15_89442c",
+        "degree": 5
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_18_d37cbc",
+        "degree": 5
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_5_88a9a2a",
+        "degree": 5
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_9_51a9124",
+        "degree": 5
+      },
+      {
+        "node": "Single_Cell_RNA_seq_Preprocessing_10X_Genomics_CellPlex_Multipl",
+        "degree": 5
+      },
+      {
+        "node": "Single_Cell_RNA_seq_Preprocessing_10X_Genomics_v3_to_Seurat_and",
+        "degree": 5
+      },
+      {
+        "node": "core_genome_Multilocus_Sequence_Typing_cgMLST_of_bacterial_geno",
+        "degree": 5
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_15_21",
+        "degree": 5
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_16_ea",
+        "degree": 5
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_5_565",
+        "degree": 5
+      },
+      {
+        "node": "bins_f61657e8",
+        "degree": 5
+      },
+      {
+        "node": "advanced_37c3450b",
+        "degree": 5
+      },
+      {
+        "node": "log_dc1d71bb",
+        "degree": 5
+      },
+      {
+        "node": "bins_f61657e8",
+        "degree": 5
+      },
+      {
+        "node": "output2_f7f065ab",
+        "degree": 5
+      },
+      {
+        "node": "output_bam_fe4a18eb",
+        "degree": 5
+      },
+      {
+        "node": "anndata_out_89bc512e",
+        "degree": 5
+      },
+      {
+        "node": "report_json_5b843cf7",
+        "degree": 5
+      },
+      {
+        "node": "Single_Cell_Mixture_Analysis_baredSC_1D_Log_Normalized_Models_2",
+        "degree": 4
+      },
+      {
+        "node": "Single_Cell_Mixture_Analysis_baredSC_2D_Log_Normalized_Models_d",
+        "degree": 4
+      },
+      {
+        "node": "sort1_6f5396af",
+        "degree": 4
+      },
+      {
+        "node": "trimmer_705a17de",
+        "degree": 4
+      },
+      {
+        "node": "BUILD_LIST_ca5a2b5a",
+        "degree": 4
+      },
+      {
+        "node": "Show_tail1_8292d231",
+        "degree": 4
+      },
+      {
+        "node": "HARMONIZELISTS_6f17103b",
+        "degree": 4
+      },
+      {
+        "node": "Summary_Statistics1_616eab53",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_ctb_rdkit_descriptors_ct",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_deeptools_bam_coverage_d",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_get_online_data_ctb_onli",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_replace_column_by_key_va",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_text_processing_tp_uniq_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_ambertools_antechamber_am",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_gmx_editconf_gmx_editconf",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_gmx_makendx_gmx_makendx_2",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_chemteam_md_converter_md_converter",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_add_value_addValue_1_0_1_f",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_concat_gops_concat_1_1_0_1",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_fasta_filter_by_length_fas",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_fasta_to_tabular_fasta2tab",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_freebayes_bamleftalign_1_3",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_merge_gops_merge_1_1_0_0_2",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_ncbi_blast_plus_ncbi_blast",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_ncbi_blast_plus_ncbi_dustm",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_samtools_idxstats_samtools",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_subtract_gops_subtract_1_1",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_devteam_tabular_to_fasta_tab2fasta",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_openms_falsediscoveryrate_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_openms_featurefindermultip",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_galaxyp_openms_peptideindexer_Pept",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_imgteam_overlay_images_ip_overlay_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_anndata_import_anndata_import_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_anndata_manipulate_anndata_man",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bandage_bandage_info_2022_09_g",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bedtools_bedtools_mergebed_2_3",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_brew3r_r_brew3r_r_1_0_2_galaxy",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bwa_mem2_bwa_mem2_2_3_galaxy0_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bwa_mem2_bwa_mem2_idx_2_3_gala",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_compress_file_compress_file_0_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_concoct_extract_fasta_bins_con",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_concoct_merge_cut_up_clusterin",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_coverm_contig_coverm_contig_0_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_mergepairs_dada2_mergePa",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_dada2_seqcounts_dada2_seqCount",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_deg_annotate_deg_annotate_1_1_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ggplot2_heatmap2_ggplot2_heatm",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_groot_groot_1_1_2_galaxy2_6a60",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ivar_trim_ivar_trim_1_3_1_gala",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_ivar_trim_ivar_trim_1_4_2_gala",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_krakentools_kreport2krona_krak",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_medaka_consensus_medaka_consen",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_minimap2_minimap2_2_17_galaxy2",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_minimap2_minimap2_2_28_galaxy1",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_pangolin_pangolin_4_3_galaxy1_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_scanpy_inspect_scanpy_inspect_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_scanpy_plot_scanpy_plot_1_10_2",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_seqkit_translate_seqkit_transl",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_seqtk_seqtk_subseq_1_4_galaxy0",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_seqtk_seqtk_telo_1_4_galaxy0_1",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snipit_snipit_1_6_galaxy0_a73b",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_snpeff_snpEff_build_gb_5_2_gal",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_vapor_vapor_1_0_2_galaxy3_ba75",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_velocyto_cli_velocyto_cli_0_17",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_volcanoplot_volcanoplot_0_0_6_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_volcanoplot_volcanoplot_4_0_1_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lldelisle_cooler_cload_tabix_coole",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_lldelisle_cooler_makebins_cooler_m",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_histnoise_mfassi",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_isofiltr_mfassig",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_kmdnoise_mfassig",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_qcxms_getres_qcxms_getres_",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_qcxms_production_run_qcxms",
+        "degree": 4
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_richard_burhans_rdeval_rdeval_repo",
+        "degree": 4
+      },
+      {
+        "node": "BREW3R_Step_5_0c361369",
+        "degree": 4
+      },
+      {
+        "node": "BREW3R_Step_6_d9b78406",
+        "degree": 4
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_0_2e17674d",
+        "degree": 4
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_8_a447122c",
+        "degree": 4
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_11_228f2e64",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_4_b8d76e2b",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_5_7fa31c11",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_10_b515d517",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_12_48c13ca5",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_13_5aa4ced6",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_14_306f5f6f",
+        "degree": 4
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_4_67f8b523",
+        "degree": 4
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_5_34068c37",
+        "degree": 4
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_6_9b756ca0",
+        "degree": 4
+      },
+      {
+        "node": "Parallel_Accession_Download_Step_1_17b91e83",
+        "degree": 4
+      },
+      {
+        "node": "lncRNAs_annotation_workflow_Step_4_d5434bb6",
+        "degree": 4
+      },
+      {
+        "node": "lncRNAs_annotation_workflow_Step_8_33f16688",
+        "degree": 4
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_10_3294553d",
+        "degree": 4
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_13_f9eb3359",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_7_9a0b74fd",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_10_dcfe488b",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_11_85c95f1d",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_12_6db60f4d",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_13_d68a1900",
+        "degree": 4
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_4_30e8fef2",
+        "degree": 4
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_9_1389a4e6",
+        "degree": 4
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_7_c624493c",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_9_adbf7f64",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_4_f743da0c",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_5_c440196b",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_6_fa506b84",
+        "degree": 4
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_9_3fea2e2a",
+        "degree": 4
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_10_c50f3703",
+        "degree": 4
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_12_1b216dab",
+        "degree": 4
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_13_344df74f",
+        "degree": 4
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_14_6dc425e7",
+        "degree": 4
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_16_e6112cca",
+        "degree": 4
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_17_a2fe8d6a",
+        "degree": 4
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_18_8589f2bc",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_6_fb91507c",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_8_79334867",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_9_1febc6ba",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_2_02dfdff6",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_13_34e7486d",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_14_3a7a0ef0",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_15_6f73c4d4",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_16_57bf2a6c",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_18_319c1447",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_20_83d1c4eb",
+        "degree": 4
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_6_17ff0e25",
+        "degree": 4
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_8_c04e1402",
+        "degree": 4
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_9_dbf32565",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_13_44b43f37",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_14_374c0857",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_17_db112b93",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_19_481294fe",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_26_d5f9a10b",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_29_db91fe14",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_30_0d643414",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_31_c32dee81",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_34_f43059e7",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_35_664c432c",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_37_baace46c",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_40_b563dbca",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_42_3245ea16",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_43_5ec1de84",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_44_20ae43bd",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_46_6ed04186",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_47_fd80fb51",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_48_5b4143d7",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_50_0df90215",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_51_0b37a3f4",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_57_38d76888",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_58_f293b31f",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_62_680f02f1",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_64_b83666c8",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_65_216bb39c",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_70_134a6ebe",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_71_a95a4c9f",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_73_690bd2ee",
+        "degree": 4
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_74_84d464f7",
+        "degree": 4
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_17_b4ca3fcc",
+        "degree": 4
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_18_5b557bdd",
+        "degree": 4
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_19_9ed7e7a6",
+        "degree": 4
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_20_226109ec",
+        "degree": 4
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_22_4b18c5f3",
+        "degree": 4
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_25_a82cd8a2",
+        "degree": 4
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_30_05259301",
+        "degree": 4
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_13_ed163e30",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_10_e8f47626",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_13_70ce3b0b",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_14_e1cb24d1",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_15_c90a3de3",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_17_17e7d18d",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_18_b0cb77dc",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_22_88964020",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_24_b34a8687",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_25_675f8a37",
+        "degree": 4
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_26_1b567870",
+        "degree": 4
+      },
+      {
+        "node": "QCxMS_Spectra_Prediction_from_SDF_Step_2_f6da0965",
+        "degree": 4
+      },
+      {
+        "node": "QCxMS_Spectra_Prediction_from_SDF_Step_3_98418283",
+        "degree": 4
+      },
+      {
+        "node": "QCxMS_Spectra_Prediction_from_SDF_Step_4_dd146d07",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_1_944d5942",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_2_0029dca3",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_4_6c61f9ca",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_6_8b4683e0",
+        "degree": 4
+      },
+      {
+        "node": "BigWig_Replicates_Averaging_Workflow_Step_2_9e3ab88c",
+        "degree": 4
+      },
+      {
+        "node": "BigWig_Replicates_Averaging_Workflow_Step_3_14199ff5",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_4_0bba1847",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_8_c111a0d0",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_9_e5da7d59",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_0_2e46714b",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_8_e9a641c5",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_9_7e1d1ab7",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_6_faf909a3",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_10_e37a9bb9",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_11_8382e9df",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_12_51d9466c",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_13_6d5b03a8",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_14_f8ecf7b8",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_15_cdb5d05c",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_18_cc2863ce",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_20_74bf2c82",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_21_6c04af9e",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_23_c89519b3",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_25_6549019a",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_27_72273f17",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_28_7ed91117",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_31_26b88316",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_32_d05def33",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_15_cce84c46",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_16_82d4ddb8",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_17_1556db02",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_20_f877a977",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_21_0655048a",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_22_5955e05b",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_23_6fcbebca",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_24_165b9211",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_37_3353a1cb",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_38_1d38fa53",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_44_c4da09e0",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_45_9ebd13f5",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_55_5d0fa77d",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_12_8390c099",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_13_4505bb4b",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_14_494d3c2a",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_22_6d5f84ac",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_23_337ca3e9",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_25_0edb623f",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_26_8a26d51a",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_27_83d957e7",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_29_d3ef8d16",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_31_21b7d4df",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_35_83c73772",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_37_41f0a4c0",
+        "degree": 4
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_38_2e1b84b9",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_10_f02950d3",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_12_b77e7ae0",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_13_97ece76a",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_14_e0cef6be",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_15_2299e4b8",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_18_a30c645c",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_20_60524e9e",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_22_966704e7",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_23_3cf79233",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_24_28345f9f",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_27_a5e7c024",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_29_bd5ae277",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_30_b5392c08",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_31_c9bf4d74",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_32_3e7b9457",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_35_572f7fea",
+        "degree": 4
+      },
+      {
+        "node": "Bacterial_Genome_Assembly_using_Shovill_Step_5_86ec4b2c",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_8_5d9d1206",
+        "degree": 4
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_3_d00f127d",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_5_664bfab4",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_7_399a362e",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_5_c73579fb",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_9_b7b163f3",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_13_84c0ae2a",
+        "degree": 4
+      },
+      {
+        "node": "Generic_variation_analysis_on_WGS_PE_data_Step_14_1d643cbc",
+        "degree": 4
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_11_66e62567",
+        "degree": 4
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_12_1ff0fdfd",
+        "degree": 4
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_16_f00622c7",
+        "degree": 4
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_18_378c9e17",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_18_e7914ea6",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_19_0deda65c",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_22_9c7e023e",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_23_f9147b0e",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_24_15a09f40",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_27_3aa63de3",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_28_03b8286e",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_29_0b15b4c3",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_32_add3371b",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_35_8382d935",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_46_ec4a7a41",
+        "degree": 4
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_49_1d204edb",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_11_dde87715",
+        "degree": 4
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_Step_7_96d53565",
+        "degree": 4
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_Step_8_1dcd402f",
+        "degree": 4
+      },
+      {
+        "node": "Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_1_36098c34",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_9_baa69cc5",
+        "degree": 4
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_7_6d867694",
+        "degree": 4
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_3_f288fcc4",
+        "degree": 4
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_7_4f6d253d",
+        "degree": 4
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_8_c29ce8f9",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_4_763f612d",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_6_2e5d797e",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_7_72dfd425",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_9_f28f49e8",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_14_e37367b0",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_18_353b1648",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_21_4fbe2c06",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_23_b7ef54e5",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_30_a3c6d426",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_31_bc20947e",
+        "degree": 4
+      },
+      {
+        "node": "Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_11_d29b699b",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_17_811d0ee0",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_18_aff300d7",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_19_788ad2a7",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_21_3c866cd9",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_23_1d33202c",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_30_d49a41b8",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_34_cf2af977",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_35_0a80d635",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_36_f2ab6dfb",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_38_c01d0064",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_43_f10dc55f",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_47_e18d38b1",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_51_0ca264e7",
+        "degree": 4
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_52_5fcb8e78",
+        "degree": 4
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_12_18ea5824",
+        "degree": 4
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_14_a9d21114",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_11_f37d0b8d",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_13_d931e26d",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_17_ab3eda4d",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_20_1d616655",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_23_a3b4f42c",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_25_c739b27a",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_29_a8ba8ed1",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_30_14021a28",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_41_2e2e6dc5",
+        "degree": 4
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_42_28f16e74",
+        "degree": 4
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_12_5ef7f826",
+        "degree": 4
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_13_3aef5a1a",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_11_cbd99eaf",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_12_6daf81fc",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_15_9a3f5c4d",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_17_9f265ce9",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_20_6dbd6f2b",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_22_555b66b3",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_24_f77258fc",
+        "degree": 4
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_25_8dc5b921",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_10_625",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_11_9ab",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_14_6c6",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_15_cdc",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_16_41a",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_19_cc1",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_21_085",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_25_4d5",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_27_2a7",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_28_c50",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_6_5e36",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_7_0c86",
+        "degree": 4
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_9_dd23",
+        "degree": 4
+      },
+      {
+        "node": "CUT_RUN_CUT_TAG_Analysis_Protein_DNA_Interaction_Mapping_Step_8",
+        "degree": 4
+      },
+      {
+        "node": "CUT_RUN_CUT_TAG_Analysis_Protein_DNA_Interaction_Mapping_Step_9",
+        "degree": 4
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_16_7a",
+        "degree": 4
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_1_a25",
+        "degree": 4
+      },
+      {
+        "node": "Gene_Ontology_and_KEGG_Pathway_Enrichment_Analysis_Step_9_0df0e",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_11_5e04",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_12_ee18",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_1_0069a",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_2_7841d",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_4_da23c",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_5_51b5b",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_6_7dea8",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_7_b4deb",
+        "degree": 4
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_9_20912",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_18_1",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_20_3",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_23_e",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_24_e",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_27_d",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_28_d",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_33_1",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_42_c",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_44_7",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_47_5",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_49_3",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_50_f",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_51_d",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_61_4",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_63_4",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_64_0",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_65_f",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_66_0",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_67_4",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_68_f",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_69_b",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_70_a",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_73_6",
+        "degree": 4
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_8_48",
+        "degree": 4
+      },
+      {
+        "node": "Hi_C_Data_Processing_FASTQ_to_Valid_Interaction_Pairs_Step_6_c4",
+        "degree": 4
+      },
+      {
+        "node": "Hi_C_Data_Processing_FASTQ_to_Valid_Interaction_Pairs_Step_7_77",
+        "degree": 4
+      },
+      {
+        "node": "Hi_C_Data_Processing_FASTQ_to_Valid_Interaction_Pairs_Step_8_54",
+        "degree": 4
+      },
+      {
+        "node": "Hi_C_Format_Conversion_Juicer_Medium_to_Cooler_Files_Step_6_79f",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_10_898965f",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_12_5ae6f44",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_3_791601ac",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_4_aeef5ae0",
+        "degree": 4
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_9_d2c10198",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_0_6",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_12_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_13_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_14_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_15_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_17_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_18_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_19_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_1_4",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_23_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_24_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_25_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_30_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_31_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_32_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_33_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_34_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_36_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_37_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_39_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_41_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_43_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_44_",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_7_8",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_8_1",
+        "degree": 4
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_9_4",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_12_fa",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_16_6f",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_20_b2",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_21_7d",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_22_5e",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_23_c1",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_24_73",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_25_4e",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_35_ba",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_37_1b",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_3_a70",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_41_d9",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_46_27",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_60_e7",
+        "degree": 4
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_9_fa5",
+        "degree": 4
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_10_f3a4ba",
+        "degree": 4
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_12_c6f191",
+        "degree": 4
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_17_1945a2",
+        "degree": 4
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_6_fd5d1c3",
+        "degree": 4
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_8_5408b19",
+        "degree": 4
+      },
+      {
+        "node": "Single_Cell_Mixture_Analysis_baredSC_1D_Log_Normalized_Models_S",
+        "degree": 4
+      },
+      {
+        "node": "Single_Cell_Mixture_Analysis_baredSC_2D_Log_Normalized_Models_S",
+        "degree": 4
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_10_4e",
+        "degree": 4
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_11_e2",
+        "degree": 4
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_18_01",
+        "degree": 4
+      },
+      {
+        "node": "MCMC_e47490d4",
+        "degree": 4
+      },
+      {
+        "node": "library_d521f765",
+        "degree": 4
+      },
+      {
+        "node": "quality_d66636b2",
+        "degree": 4
+      },
+      {
+        "node": "intervals_f46c9d8b",
+        "degree": 4
+      },
+      {
+        "node": "fastq_input_1770828b",
+        "degree": 4
+      },
+      {
+        "node": "transcripts_525c0b10",
+        "degree": 4
+      },
+      {
+        "node": "input_counts_c8e3d20b",
+        "degree": 4
+      },
+      {
+        "node": "reference_genome_32b03043",
+        "degree": 4
+      },
+      {
+        "node": "quality_d66636b2",
+        "degree": 4
+      },
+      {
+        "node": "statsFile_185d1d61",
+        "degree": 4
+      },
+      {
+        "node": "bam_output_df302d41",
+        "degree": 4
+      },
+      {
+        "node": "output_file_9c697d9c",
+        "degree": 4
+      },
+      {
+        "node": "other_outputs_1ff21c29",
+        "degree": 4
+      },
+      {
+        "node": "alignment_output_d8a82035",
+        "degree": 4
+      },
+      {
+        "node": "variableMetadata_6ee06e12",
+        "degree": 4
+      },
+      {
+        "node": "read_preprocessing_169b6ed6",
+        "degree": 3
+      },
+      {
+        "node": "RNA_Velocity_Analysis_Velocyto_for_10X_Data_from_Bundled_Output",
+        "degree": 3
+      },
+      {
+        "node": "RNA_Velocity_Analysis_Velocyto_for_10X_Data_with_Filtered_Barco",
+        "degree": 3
+      },
+      {
+        "node": "Paste1_b148f663",
+        "degree": 3
+      },
+      {
+        "node": "MERGE_COLLECTION_36c3a0fe",
+        "degree": 3
+      },
+      {
+        "node": "DUPLICATE_FILE_TO_COLLECTION_135a2928",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_ctb_frankenstein_ligand_",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_enumerate_charges_enumer",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_rdock_sort_filter_rdock_",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_rxdock_rbcavity_rxdock_r",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_rxdock_rbdock_rxdock_rbd",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_bgruening_sucos_docking_scoring_su",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_imgteam_2d_auto_threshold_ip_thres",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_imgteam_2d_histogram_equalization_",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_imgteam_2d_simple_filter_ip_filter",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_imgteam_bfconvert_ip_convertimage_",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_imgteam_binary2labelimage_ip_binar",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_imgteam_count_objects_ip_count_obj",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_bamtools_split_ref_bamtools_sp",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_calculate_numeric_param_calcul",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_scanpy_cluster_reduce_dimensio",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_scanpy_filter_scanpy_filter_1_",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_scanpy_normalize_scanpy_normal",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_iuc_scanpy_remove_confounders_scan",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_findrecalseries_",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_recallist_mfassi",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_recetox_mfassignr_snplot_mfassignr",
+        "degree": 3
+      },
+      {
+        "node": "toolshed_g2_bx_psu_edu_repos_rnateam_mafft_rbc_mafft_7_526_gala",
+        "degree": 3
+      },
+      {
+        "node": "BREW3R_Step_2_33f00f35",
+        "degree": 3
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_1_ec6d95c0",
+        "degree": 3
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_4_956bf9d8",
+        "degree": 3
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_5_661cc5e9",
+        "degree": 3
+      },
+      {
+        "node": "AMR_Gene_Detection_Step_10_e610ae85",
+        "degree": 3
+      },
+      {
+        "node": "MetaProSIP_OpenMS_2_8_Step_2_0bf82aad",
+        "degree": 3
+      },
+      {
+        "node": "Mitogenome_Assembly_VGP0_Step_0_3ec6963e",
+        "degree": 3
+      },
+      {
+        "node": "Mitogenome_Assembly_VGP0_Step_5_96bdc8f1",
+        "degree": 3
+      },
+      {
+        "node": "Mitogenome_Assembly_VGP0_Step_6_bef4186b",
+        "degree": 3
+      },
+      {
+        "node": "Mitogenome_Assembly_VGP0_Step_9_92244b78",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_2_7fc1523c",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_8_7123a230",
+        "degree": 3
+      },
+      {
+        "node": "Genome_assembly_with_Flye_Step_2_ebe837a9",
+        "degree": 3
+      },
+      {
+        "node": "Genome_assembly_with_Flye_Step_3_ebc0c396",
+        "degree": 3
+      },
+      {
+        "node": "Genome_assembly_with_Flye_Step_4_6c2511b5",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_11_b96b1b06",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_15_9a527dcc",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_BioNano_VGP7_Step_16_e2f11d50",
+        "degree": 3
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_1_b33924cd",
+        "degree": 3
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_2_190acee2",
+        "degree": 3
+      },
+      {
+        "node": "Parallel_Accession_Download_Step_3_62ae5112",
+        "degree": 3
+      },
+      {
+        "node": "Parallel_Accession_Download_Step_4_8fb1adde",
+        "degree": 3
+      },
+      {
+        "node": "lncRNAs_annotation_workflow_Step_2_0ca9a428",
+        "degree": 3
+      },
+      {
+        "node": "Bacterial_Genome_Annotation_Step_11_6a290037",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_0_71bcd8db",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Maker_Step_6_8e79e609",
+        "degree": 3
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_1_826e81fe",
+        "degree": 3
+      },
+      {
+        "node": "kmer_profiling_hifi_trio_VGP2_Step_2_bf60b980",
+        "degree": 3
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_0_2b86bab9",
+        "degree": 3
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_3_b39ed961",
+        "degree": 3
+      },
+      {
+        "node": "Assembly_decontamination_VGP9__Step_9_9e5f4eae",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_0_b785b812",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_1_735f2cb5",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_2_c9bc4004",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_2_a76a0aa3",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Helixer_Step_8_3db0f811",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_0_4beaa140",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_1_1a1121c9",
+        "degree": 3
+      },
+      {
+        "node": "Genome_annotation_with_Braker3_Step_11_542a8f00",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_3_7a5e1c33",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_4_4e33e07b",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_8_e2a44359",
+        "degree": 3
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_9_a3cd061f",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_consensus_construction_Step_22_967ad2e0",
+        "degree": 3
+      },
+      {
+        "node": "Create_GRO_and_TOP_complex_files_Step_1_5f351145",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_10_4f508d91",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_15_450ea639",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_16_dffb3ad9",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_33_43bd7ae6",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_52_0f036ea9",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_55_e3e0f37d",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_66_424bf74d",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_67_57634527",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_68_51a465d4",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_69_45981734",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_72_873653d6",
+        "degree": 3
+      },
+      {
+        "node": "Scaffolding_with_Hi_C_data_VGP8_Step_77_d434b097",
+        "degree": 3
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_11_10fc9283",
+        "degree": 3
+      },
+      {
+        "node": "dcTMD_calculations_with_GROMACS_Step_35_e7019e31",
+        "degree": 3
+      },
+      {
+        "node": "MMGBSA_calculations_with_GROMACS_Step_27_94849ee9",
+        "degree": 3
+      },
+      {
+        "node": "Assembly_polishing_with_long_reads_Step_0_ae80a089",
+        "degree": 3
+      },
+      {
+        "node": "Mass_spectrometry_GCMS_with_metaMS_Step_8_c6a8d3ce",
+        "degree": 3
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_1_a440cfa5",
+        "degree": 3
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_2_b272c649",
+        "degree": 3
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_3_41d9fce4",
+        "degree": 3
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_2_4dff67eb",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_1_bd3e5bfb",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_2_87877496",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_3_d24bf59d",
+        "degree": 3
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_30_bf8a5fa4",
+        "degree": 3
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_33_3d41087e",
+        "degree": 3
+      },
+      {
+        "node": "Generic_variation_analysis_reporting_Step_34_c8086979",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_12_dbb77f3e",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_13_2c29965e",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_18_f4ea9660",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_19_65daadb9",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_28_1b3f5f6a",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_29_48be9c8c",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_30_895fe66a",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_31_b8845802",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_32_a0be71e6",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_46_59218a49",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_47_7407a097",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_48_c1580a00",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_49_1eec93e8",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_50_99717d22",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_51_dfa38303",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_52_54ca93f7",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_VGP3_Step_56_ad07e878",
+        "degree": 3
+      },
+      {
+        "node": "Metagenomic_Genes_Catalogue_Analysis_Step_39_12835fde",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_33_364472f5",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_reporting_Step_34_42c72ae7",
+        "degree": 3
+      },
+      {
+        "node": "Bacterial_Genome_Assembly_using_Shovill_Step_3_f00a9050",
+        "degree": 3
+      },
+      {
+        "node": "Bacterial_Genome_Assembly_using_Shovill_Step_4_efa1865d",
+        "degree": 3
+      },
+      {
+        "node": "Bacterial_Genome_Assembly_using_Shovill_Step_6_6eae8ae3",
+        "degree": 3
+      },
+      {
+        "node": "Short_read_quality_control_and_trimming_Step_6_b8d0d699",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_5_0f187f10",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_6_b78c9826",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_7_01f41ec5",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_9_1ca79c32",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_10_174214fc",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_14_6c50a770",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_15_a8a78104",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_17_cc51aba2",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_19_5241dd3e",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_21_c63b60c5",
+        "degree": 3
+      },
+      {
+        "node": "K_mer_profiling_and_reads_statistics_VGP1_Step_22_51f0a3a6",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_10_b6893342",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_13_88a78ec7",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_14_a2f022db",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_15_8404a6b8",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_21_0af692a1",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_25_1cc6e016",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_36_64297928",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_39_3f8d668e",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_40_ecdd65f9",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_41_6822fafd",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_42_95d64df0",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_43_6cae535d",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_44_d4b77094",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_45_ec0fa526",
+        "degree": 3
+      },
+      {
+        "node": "Purging_duplicates_in_one_haplotype_VGP6b_Step_50_6772ff1b",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_PE_data_Step_12_6e2eeb5c",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_WGS_SE_data_Step_10_86e8d51b",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_2_eb75cb01",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_3_60dc3afa",
+        "degree": 3
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_Step_9_35d53084",
+        "degree": 3
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_2_1264a4c4",
+        "degree": 3
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_6_5dc60edf",
+        "degree": 3
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_0_8214b4f9",
+        "degree": 3
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_1_e14c851f",
+        "degree": 3
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_3_f467e245",
+        "degree": 3
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_4_825e51a4",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_on_ARTIC_PE_data_Step_32_8e552a8f",
+        "degree": 3
+      },
+      {
+        "node": "ChIP_seq_Analysis_Paired_End_Read_Processing_Step_10_fba8d407",
+        "degree": 3
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_Step_10_62de9673",
+        "degree": 3
+      },
+      {
+        "node": "ChIP_seq_Analysis_Single_End_Read_Processing_Step_11_f77e14e1",
+        "degree": 3
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_53_8441ea7f",
+        "degree": 3
+      },
+      {
+        "node": "Metagenome_Assembled_Genomes_MAGs_generation_Step_55_690aff48",
+        "degree": 3
+      },
+      {
+        "node": "Paired_end_variant_calling_in_haploid_system_Step_15_2e9dc66b",
+        "degree": 3
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_43_3ea72ac4",
+        "degree": 3
+      },
+      {
+        "node": "PretextMap_Generation_from_1_or_2_haplotypes_Step_44_dcf96b2c",
+        "degree": 3
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_14_02abe9c2",
+        "degree": 3
+      },
+      {
+        "node": "sra_manifest_to_concatenated_fastqs_parallel_Step_15_d77f5fea",
+        "degree": 3
+      },
+      {
+        "node": "COVID_19_variation_analysis_of_ARTIC_ONT_data_Step_26_c826e3b9",
+        "degree": 3
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_18_cdd",
+        "degree": 3
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_1_28e9",
+        "degree": 3
+      },
+      {
+        "node": "ATAC_seq_Analysis_Chromatin_Accessibility_Profiling_Step_3_1908",
+        "degree": 3
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_7_34a",
+        "degree": 3
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_8_537",
+        "degree": 3
+      },
+      {
+        "node": "Capture_Hi_C_Processing_FASTQ_to_Balanced_Cool_Files_Step_9_128",
+        "degree": 3
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_13_504e",
+        "degree": 3
+      },
+      {
+        "node": "Generate_Nx_and_Size_plots_for_multiple_assemblies_Step_14_f059",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_14_5",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_15_e",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_19_3",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_21_c",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_41_2",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_43_5",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_45_5",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_46_b",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_48_f",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_4_44",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_52_8",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_53_7",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_62_6",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_71_8",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_72_f",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_74_c",
+        "degree": 3
+      },
+      {
+        "node": "Genome_Assembly_from_Hifi_reads_with_HiC_phasing_VGP4_Step_7_99",
+        "degree": 3
+      },
+      {
+        "node": "Hi_C_Format_Conversion_Juicer_Medium_to_Cooler_Files_Step_1_0c9",
+        "degree": 3
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_11_1ff631d",
+        "degree": 3
+      },
+      {
+        "node": "Mass_spectrometry_LC_MS_preprocessing_with_XCMS_Step_13_15bf8af",
+        "degree": 3
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_2_b",
+        "degree": 3
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_45_",
+        "degree": 3
+      },
+      {
+        "node": "Pox_Virus_Illumina_Amplicon_Workflow_from_half_genomes_Step_46_",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_11_de",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_13_aa",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_14_45",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_19_9e",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_2_e46",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_32_6e",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_39_05",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_48_e5",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_51_2f",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_52_3c",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_53_a5",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_54_0d",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_55_ad",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_56_05",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_57_fe",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_61_34",
+        "degree": 3
+      },
+      {
+        "node": "Purge_duplicate_contigs_from_a_diploid_assembly_VGP6_Step_8_d50",
+        "degree": 3
+      },
+      {
+        "node": "RNA_Velocity_Analysis_Velocyto_for_10X_Data_from_Bundled_Output",
+        "degree": 3
+      },
+      {
+        "node": "RNA_Velocity_Analysis_Velocyto_for_10X_Data_with_Filtered_Barco",
+        "degree": 3
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_16_c6ab99",
+        "degree": 3
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_19_11d719",
+        "degree": 3
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_1_c77483e",
+        "degree": 3
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_20_377305",
+        "degree": 3
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_3_84b424e",
+        "degree": 3
+      },
+      {
+        "node": "SARS_CoV_2_Illumina_Amplicon_pipeline_iVar_based_Step_4_be2d625",
+        "degree": 3
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_3_c23",
+        "degree": 3
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_6_f0b",
+        "degree": 3
+      },
+      {
+        "node": "dada2_amplicon_analysis_pipeline_for_paired_end_data_Step_8_fa8",
+        "degree": 3
+      },
+      {
+        "node": "mode_15d61712",
+        "degree": 3
+      },
+      {
+        "node": "snpDb_aa5f61b3",
+        "degree": 3
+      },
+      {
+        "node": "input_file_585bc876",
+        "degree": 3
+      },
+      {
+        "node": "input_type_0902a570",
+        "degree": 3
+      },
+      {
+        "node": "input_option_5d0e6d58",
+        "degree": 3
+      },
+      {
+        "node": "image_content_input_edbdef06",
+        "degree": 3
+      },
+      {
+        "node": "read_db_56a93854",
+        "degree": 3
+      },
+      {
+        "node": "log_file_ba6de409",
+        "degree": 3
+      },
+      {
+        "node": "out_file_a7a111c3",
+        "degree": 3
+      },
+      {
+        "node": "consensus_078eb6dc",
+        "degree": 3
+      },
+      {
+        "node": "dataMatrix_9eea1e0c",
+        "degree": 3
+      },
+      {
+        "node": "float_param_0e42b9b8",
+        "degree": 3
+      },
+      {
+        "node": "outFileName_cfe5e631",
+        "degree": 3
+      },
+      {
+        "node": "variableMetadata_out_ec4f1707",
+        "degree": 3
+      }
+    ]
+  }
+}

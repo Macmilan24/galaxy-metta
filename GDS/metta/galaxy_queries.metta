@@ -1,4 +1,4 @@
-
+;; Galaxy GDS Queries - MORK Version
 
 ;; Query 1: Connectivity and degree
 
@@ -25,29 +25,34 @@
 (= (valid-type) ToolInput)
 (= (valid-type) ToolOutput)
 
+;; Use &mork for MORK backend
 (= (get-all-nodes)
    (let $type (valid-type)
-      (match &self (: $node $type) $node)
+      (match &mork (: $node $type) $node)
    )
 )
 
 
-;; Match relation node to y or  y to node
+;; Match relation node to y or y to node
 (= (neighbors-of $node)
    (let $pred (gds-edge)
-      (match &self ($pred $node $y) $y)
+      (match &mork ($pred $node $y) $y)
    )
 )
 
 (= (neighbors-of $node)
    (let $pred (gds-edge)
-      (match &self ($pred $y $node) $y)
+      (match &mork ($pred $y $node) $y)
    )
+)
+
+(= (neighbors-list $node)
+   (unique-atom (collapse (neighbors-of $node)))
 )
 
 ;; sum all neighbors
 (= (get-degree $node)
-   (foldall count-plus-one (neighbors-of $node) 0)
+   (size-atom (neighbors-list $node))
 )
 
 ;; =====================================
@@ -66,31 +71,31 @@
 ;; helper check if connected
 (= (check-connection $x $y)
    (let $pred (gds-edge)
-      (match &self ($pred $x $y) True)
+      (match &mork ($pred $x $y) True)
    )
 )
 
 (= (check-connection $x $y)
    (let $pred (gds-edge)
-      (match &self ($pred $y $x) True)
+      (match &mork ($pred $y $x) True)
    )
 )
 
 ;; count triangle for a node
 (= (triangle-count $node)
-   (foldall count-plus-one
-      (let $b (neighbors-of $node)
-         (let $c (neighbors-of $node)
-            (if (and
-               (not (== $b $c))
-               (check-connection $b $c)
-            )
-            (FoundTriangle)
-            (empty)
+   (let $nbrs (neighbors-list $node)
+      (foldall count-plus-one
+         (let $b (superpose $nbrs)
+            (let $c (superpose $nbrs)
+               (let True (not (== $b $c))
+                  (let False (== (collapse (check-connection $b $c)) ())
+                     (FoundTriangle)
+                  )
+               )
             )
          )
+         0
       )
-      0
    )
 )
 
@@ -139,7 +144,7 @@
          )
       )
    )
-)  
+)
 
 
 
@@ -151,8 +156,8 @@
 ;; motifs open Triads
 !("Motif: Open Triads Found:")
 !(let $a (get-all-nodes) 
-   (let $b (neighbors-of $a)
-      (let $c (neighbors-of $b)
+   (let $b (superpose (neighbors-list $a))
+      (let $c (superpose (neighbors-list $b))
          (if (and
             (not (== $a $c))
             (not-connected $a $c)
